@@ -1,0 +1,3147 @@
+{
+    "questions": [
+        {
+            "body": "Can losartan reduce brain atrophy in Alzheimer's disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34687634"
+            ],
+            "ideal_answer": "No, 12 months of treatment with losartan was not effective in reducing the rate of brain atrophy in individuals with clinically diagnosed mild-to-moderate Alzheimer's disease.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "6402c910201352f04a00000c",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 2574,
+                    "offsetInEndSection": 2784,
+                    "text": "INTERPRETATION: 12 months of treatment with losartan was well tolerated but was not effective in reducing the rate of brain atrophy in individuals with clinically diagnosed mild-to-moderate Alzheimer's disease.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34687634",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is CHARMS with respect to medical review of predictive modeling?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35633976",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35321760",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35196337",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35493941"
+            ],
+            "ideal_answer": "CHARMS, or Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies, is a tool used for evaluating and extracting data from prediction modeling studies in medical research. It is a checklist that helps with critical appraisal and data extraction for systematic reviews of such studies.",
+            "exact_answer": [
+                "CHARMS is a checklist for critical appraisal and data extraction for systematic reviews of prediction modeling studies in medical research."
+            ],
+            "type": "factoid",
+            "id": "640f857d201352f04a00002b",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 452,
+                    "offsetInEndSection": 569,
+                    "text": "CHecklist for critical Appraisal and data extraction for systematic Reviews of prediction Modelling Studies (CHARMS).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35633976",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1208,
+                    "offsetInEndSection": 1359,
+                    "text": "We will extract data based on the Checklist for\u00a0Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS), ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35321760",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 688,
+                    "offsetInEndSection": 807,
+                    "text": "Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS-PF).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35196337",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 892,
+                    "offsetInEndSection": 993,
+                    "text": "Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35493941",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Which splicing factors have been associated with alternative splicing in PLN R14del hearts?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36375644"
+            ],
+            "ideal_answer": "Srrm4 and Nova1 have been identified as tissue-specific splicing factors that are likely upstream regulators of alternative splicing changes observed in PLN R14del hearts.",
+            "exact_answer": [
+                [
+                    "Srrm4"
+                ],
+                [
+                    "Nova1"
+                ]
+            ],
+            "type": "list",
+            "id": "6410eb95201352f04a00002e",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 745,
+                    "offsetInEndSection": 917,
+                    "text": "Our work suggests that an intricate interplay of programs controlling gene expression levels and AS is fundamental to organ development, especially for the brain and heart.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33941934",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1266,
+                    "offsetInEndSection": 1452,
+                    "text": "Bioinformatical analysis pointed to the tissue-specific splicing factors Srrm4 and Nova1 as likely upstream regulators of the observed splicing changes in the PLN-R14del cardiomyocytes. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36375644",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What are the most common mutation types in Duchenne muscular Dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/31381525",
+                "http://www.ncbi.nlm.nih.gov/pubmed/26284620",
+                "http://www.ncbi.nlm.nih.gov/pubmed/21402533",
+                "http://www.ncbi.nlm.nih.gov/pubmed/23620649"
+            ],
+            "ideal_answer": "The most common mutation types in Duchenne muscular dystrophy are deletions, duplications, and point mutations.",
+            "exact_answer": [
+                [
+                    "Deletions"
+                ],
+                [
+                    "Duplications"
+                ],
+                [
+                    "Point mutations"
+                ]
+            ],
+            "type": "list",
+            "id": "64162fb0690f196b5100001a",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 620,
+                    "offsetInEndSection": 678,
+                    "text": " 64% deletions, 18% duplications and 18% point mutations. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/31381525",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 926,
+                    "offsetInEndSection": 1241,
+                    "text": "Of these, 406 (70.5%) were exonic deletions, 64 (11.1%) were exonic duplications, and one was a deletion/duplication complex rearrangement (0.2%). Small mutations were identified in 105 cases (18.2%), most being nonsense/frameshift types (75.2%). Mutations in splice sites, however, were relatively frequent (20%). ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/26284620",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 440,
+                    "offsetInEndSection": 524,
+                    "text": "gene deletion rate was 54.3% (391/720), and gene duplication rate was 10.6% (76/720)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/21402533",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 526,
+                    "offsetInEndSection": 737,
+                    "text": "The rate of deletion mutant occurred in Exon 45-54 was 71.9% (281/391) in all gene deletion patients; meanwhile, the rate of gene duplication occurred in Exon 1-40 was 82.9% (63/76) in all gene duplication ones.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/21402533",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 738,
+                    "offsetInEndSection": 862,
+                    "text": "In all the patients with gene deletion and duplication, the rate of DMD and IMD was 90.6% (423/467), and BMD, 9.4% (44/467).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/21402533",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 243,
+                    "text": "The Duchenne Muscular dystrophy (DMD) is the most frequent muscle disorder in childhood caused by mutations in the Xlinked dystrophin gene (about 65% deletions, about 7% duplications, about 26% point mutations and about 2% unknown mutations). ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23620649",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the target of Litifilimab?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35939578",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36069871"
+            ],
+            "ideal_answer": "The target of Litifilimab is BDCA2, a dendritic cell receptor.",
+            "exact_answer": [
+                "BDCA2"
+            ],
+            "type": "factoid",
+            "id": "63eef3ebf36125a42600000a",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 75,
+                    "text": "Trial of Anti-BDCA2 Antibody Litifilimab for Cutaneous Lupus Erythematosus.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939578",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 193,
+                    "offsetInEndSection": 406,
+                    "text": "Whether treatment with litifilimab, a humanized monoclonal antibody against BDCA2, would be efficacious in reducing disease activity in patients with cutaneous lupus erythematosus has not been extensively studied.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939578",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 74,
+                    "text": "Trial of Anti-BDCA2 Antibody Litifilimab for Systemic Lupus Erythematosus.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36069871",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 258,
+                    "offsetInEndSection": 420,
+                    "text": " The safety and efficacy of subcutaneous litifilimab, a humanized monoclonal antibody that binds to BDCA2, in patients with SLE have not been extensively studied.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36069871",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is AUROC in context of predictive modeling?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35610482",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35426141",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35438215"
+            ],
+            "ideal_answer": "AUROC stands for Area Under the Receiver Operating Characteristic Curve. It is a performance metric used for evaluating the predictive models. AUROC is a graphical representation of the true positive rate (sensitivity) against the false positive rate (1-specificity) at different threshold settings. It ranges from 0 to 1, where a higher value indicates a better performance of the model. It is widely used in binary classification problems to measure the ability of the model to distinguish between positive and negative classes.",
+            "exact_answer": [
+                "AUROC"
+            ],
+            "type": "factoid",
+            "id": "64136fbf201352f04a00003d",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 847,
+                    "offsetInEndSection": 915,
+                    "text": ". The area under the receiver operator characteristics curve (AUROC)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35610482",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1513,
+                    "offsetInEndSection": 1556,
+                    "text": "area under receiver operator curve [AUROC] ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35426141",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 819,
+                    "offsetInEndSection": 927,
+                    "text": "The model performance was evaluated using the area under the receiver operating characteristic curve (AUROC)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35438215",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is PRP-40 regulation of microexons a conserved phenomenon?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34348142"
+            ],
+            "ideal_answer": "Yes, PRP-40 regulation of neuronal microexons is a widely conserved phenomenon.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "63fa13da201352f04a000001",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1011,
+                    "offsetInEndSection": 1095,
+                    "text": "PRP-40 regulation of neuronal microexons is therefore a widely conserved phenomenon.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34348142",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is casimersen effective for the treatment of Duchenne muscular dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/33861387"
+            ],
+            "ideal_answer": "Yes, Casimersen is effective for the treatment of Duchenne muscular dystrophy in patients who have a confirmed mutation of the DMD gene that is amenable to exon 45 skipping. It has been approved by the US FDA under the accelerated approval program based on an observed increase in dystrophin production in skeletal muscle in treated patients.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "64178e15690f196b51000020",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 568,
+                    "offsetInEndSection": 761,
+                    "text": "Casimersen received its first approval on 25\u00a0February 2021, in the USA, for the treatment of DMD in patients who have a confirmed mutation of the DMD gene that is amenable to exon\u00a045 skipping. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33861387",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 762,
+                    "offsetInEndSection": 943,
+                    "text": "he approval, granted under the US FDA Accelerated Approval Program, was based on an observed increase in dystrophin production in skeletal muscle in patients treated with casimersen",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33861387",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Which are the targets of Tirzepatide?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35651477",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35658024",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35593668"
+            ],
+            "ideal_answer": "Tirzepatide targets the GLP-1 and GIP receptors, as it is a dual GLP-1R/GIPR agonist",
+            "type": "summary",
+            "id": "63f02ceaf36125a426000015",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 110,
+                    "text": "Designing a Dual GLP-1R/GIPR Agonist from Tirzepatide: Comparing Residues Between Tirzepatide, GLP-1, and GIP.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35651477",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 102,
+                    "offsetInEndSection": 277,
+                    "text": "he efficacy and safety of tirzepatide, a novel glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist, in people with obesity are not known.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35658024",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 144,
+                    "text": "Tirzepatide - a dual GIP/GLP-1 receptor agonist - a new antidiabetic drug with potential metabolic activity in the treatment of type 2 diabetes.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35593668",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 400,
+                    "text": "The incretin hormones glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) are responsible for up to 65% of postprandial insulin secretion. Tirzepatide, developed by Eli Lilly, is a dual GIP/GLP-1 receptor agonist in the form of a synthetic linear peptide; its acylation technology allows it to bind to albumin, thus making it possible to dose the drug once a week. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35593668",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is medical hydrology the same as Spa therapy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35779167",
+                "http://www.ncbi.nlm.nih.gov/pubmed/32875343",
+                "http://www.ncbi.nlm.nih.gov/pubmed/32568298"
+            ],
+            "ideal_answer": "No, medical hydrology and spa therapy are related but not the same. Medical hydrology involves the therapeutic use of water in a medical setting, while spa therapy uses water treatments in a relaxation and wellness setting.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "640e2616201352f04a00002a",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 187,
+                    "offsetInEndSection": 315,
+                    "text": "hydrotherapy,\" \"balneotherapy,\" \"spa therapy,\" \"spa treatment,\" \"creno-balneotherapy,\" \"water treatments,\" and \"aqua therapy,\" o",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35779167",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 554,
+                    "text": "Spa therapy is an integral part of the treatment of burn scars. The objective of this systematic review is to provide an overview of the spa therapy used in the treatment of burn scars and analyze its effects reported in clinical studies. We used the PRISMA checklist and queried 8 scientific databases from August 2019 to July 2020 for articles referenced with the specific key words: (burn) AND ((spa) OR (crenotherap*) OR (sulfur bath) OR (balneo*) OR (hydrotherap*) OR (mineral water) OR (thermal water) OR (spring water) OR (health resort medicine))",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32875343",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 249,
+                    "text": "Soon after qualification, Fortescue Fox (1858-1940) began practice in a Scottish spa where he acquired a lifelong interest in chronic disorders, especially arthritis. He worked to improve the status of spa medicine, recasting it as medical hydrology",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32568298",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "How does CYP1A2 relate to coffee consumption and apetite?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34564706"
+            ],
+            "ideal_answer": "CYP1A2 polymorphisms modify the association of habitual coffee consumption with appetite, macronutrient intake, and body mass index. High coffee consumption was more prevalent in rapid compared to slow metabolizers and was associated with lower appetite perception and lower BMI only in rapid metabolizers",
+            "type": "summary",
+            "id": "6410fa66201352f04a000034",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 204,
+                    "text": "CYP1A2 polymorphisms modify the association of habitual coffee consumption with appetite, macronutrient intake, and body mass index: results from an observational cohort and a cross-over randomized study.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34564706",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 1340,
+                    "offsetInEndSection": 1952,
+                    "text": "High coffee consumption was more prevalent in rapid compared to slow metabolizers (P\u2009=\u20090.008 after adjustment for age, sex, and BMI) and was associated with lower appetite perception and lower BMI only in rapid metabolizers (P for interaction of rs762551 genotype*coffee consumption\u2009=\u20090.002 and 0.048, respectively). This differential association of rs762551 genotype and coffee consumption with BMI was more evident in individuals at higher genetic risk of obesity (mean adjusted difference in BMI\u2009=\u2009-5.82\u2009kg/m2 for rapid versus slow/intermediate metabolizers who consumed more than 14 cups of coffee per week).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34564706",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1965,
+                    "offsetInEndSection": 2256,
+                    "text": "CYP1A2 rs762551 polymorphism modifies the association of habitual coffee consumption with BMI, in part by influencing appetite, energy intake and circulating levels of the orexigenic hormone asprosin. This association is more evident in subjects with high genetic predisposition to obesity. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34564706",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is eteplirsen effective for the treatment of Duchenne muscular dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34797383",
+                "http://www.ncbi.nlm.nih.gov/pubmed/34420980",
+                "http://www.ncbi.nlm.nih.gov/pubmed/33523015"
+            ],
+            "ideal_answer": "Yes, eteplirsen has been shown to be effective in attenuating the decline in ambulation and pulmonary function in patients with Duchenne muscular dystrophy, as demonstrated by a statistically significant longer median time to loss of ambulation and significantly attenuated rates of pulmonary decline in eteplirsen-treated patients compared to natural history controls.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "64178e73690f196b51000023",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1347,
+                    "offsetInEndSection": 1641,
+                    "text": "Eteplirsen-treated patients experienced a statistically significant longer median time to LOA by 2.09 years (5.09 vs. 3.00 years, p\u200a<\u200a0.01) and significantly attenuated rates of pulmonary decline vs. natural history patients (FVC%p change: -3.3 vs. -6.0 percentage points annually, p\u200a<\u200a0.0001).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34420980",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 967,
+                    "offsetInEndSection": 1200,
+                    "text": "At Years 3 and 4, eteplirsen-treated patients demonstrated markedly greater mean 6MWT than controls (difference in change from baseline of 132 m [95%CI (29, 235), p\u200a=\u200a0.015] at Year 3 and 159\u200am [95%CI (66, 253), p\u200a=\u200a0.002] at Year 4)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33523015",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1202,
+                    "offsetInEndSection": 1341,
+                    "text": "At Year 4, a significantly greater proportion of eteplirsen-treated patients were still ambulant versus controls (10/12 vs 3/11; p\u200a=\u200a0.020)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33523015",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1606,
+                    "offsetInEndSection": 1803,
+                    "text": " In this retrospective matched control study, eteplirsen treatment resulted in attenuation of ambulatory decline over a 4-year observation period, supporting long-term benefit in patients with DMD.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33523015",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the use of darolutamide?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34308608",
+                "http://www.ncbi.nlm.nih.gov/pubmed/33830214",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35656777"
+            ],
+            "ideal_answer": "Darolutamide is used to treat non-metastatic castration-resistant prostate cancer (nmCRPC)",
+            "type": "summary",
+            "id": "63f03939f36125a42600001b",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1482,
+                    "offsetInEndSection": 1648,
+                    "text": "CONCLUSIONS: All three ARAT agents are efficacious options for the treatment of nmCRPC, whereas darolutamide appears to have the most favorable tolerability profile. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34308608",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 335,
+                    "text": "BACKGROUND: For nonmetastatic castration-resistant prostate cancer (nmCRPC), 3 drugs under patent protection-apalutamide, enzalutamide, and darolutamide-were approved based on randomized, placebo-controlled trials; 1 drug with generic availability, abiraterone acetate, showed efficacy in a single-arm trial and is commonly prescribed.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33830214",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1701,
+                    "offsetInEndSection": 1920,
+                    "text": "CONCLUSIONS: For nmCRPC, darolutamide offered optimal efficacy and safety among approved drugs, and abiraterone acetate may offer comparable metastasis-free survival benefit with cost savings from generic availability. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33830214",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 160,
+                    "text": "Darolutamide and survival in metastatic, hormone-sensitive prostate cancer: a patient and caregiver perspective and plain language summary of the ARASENS trial.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35656777",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 687,
+                    "offsetInEndSection": 846,
+                    "text": "Darolutamide is an approved treatment for a different type of prostate cancer called non-metastatic, castration-resistant prostate cancer (also called nmCRPC).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35656777",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What are the main clinical features of small-fiber neuropathy (SFN)?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/17948213",
+                "http://www.ncbi.nlm.nih.gov/pubmed/34698404",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36005471",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35130356"
+            ],
+            "ideal_answer": "The main clinical features of small-fiber neuropathy (SFN) include pain, burning sensations, tingling sensations, numbness, and autonomic dysfunction.",
+            "exact_answer": [
+                [
+                    "pain"
+                ],
+                [
+                    "burning sensations"
+                ],
+                [
+                    "tingling sensations"
+                ],
+                [
+                    "numbness"
+                ],
+                [
+                    "autonomic dysfunction"
+                ]
+            ],
+            "type": "list",
+            "id": "64136664201352f04a00003b",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 155,
+                    "offsetInEndSection": 272,
+                    "text": " Selective SFN (without large fiber affection) manifests with pain, sensory disturbances, or autonomic dysfunction. T",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35130356",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 14,
+                    "offsetInEndSection": 236,
+                    "text": "Neuropathic pain (NP) is a main feature of Fabry disease (FD) as consequence of small fiber neuropathy. Restless legs syndrome (RLS) in FD was not described, but it is an important feature in other small fiber neuropathies",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/17948213",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 13,
+                    "offsetInEndSection": 184,
+                    "text": "mall fiber neuropathy (SFN) can be associated with autoantibodies, including those of IgM class with specificity for the trisulfated heparan disaccharide (TS-HDS) antigen.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34698404",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 12,
+                    "offsetInEndSection": 234,
+                    "text": "Up to 50% of small fiber neuropathy (SFN) cases are idiopathic, but novel antibodies to Trisulfated Heparin Disaccharide (TS-HDS) and fibroblast growth factor receptor 3 (FGFR-3) have been implicated in half of these cases",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36005471",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "When was Keytruda approved by the FDA for the treatment of metastatic non-small cell lung cancer?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/28835513"
+            ],
+            "ideal_answer": "On October 24, 2016, the FDA approved pembrolizumab (Keytruda) for treatment of patients with metastatic non-small cell lung cancer.",
+            "exact_answer": [
+                "October 24, 2016"
+            ],
+            "type": "factoid",
+            "id": "6415c53e690f196b51000012",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 713,
+                    "text": "On October 24, 2016, the U.S. Food and Drug Administration (FDA) approved pembrolizumab (Keytruda; Merck & Co., Inc., https://www.merck.com) for treatment of patients with metastatic non-small cell lung cancer (mNSCLC) whose tumors express programmed death-ligand 1 (PD-L1) as determined by an FDA-approved test, as follows: (a) first-line treatment of patients with mNSCLC whose tumors have high PD-L1 expression (tumor proportion score [TPS] \u226550%), with no epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK) genomic tumor aberrations, and (b) treatment of patients with mNSCLC whose tumors express PD-L1 (TPS \u22651%), with disease progression on or after platinum-containing chemotherapy. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/28835513",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Which gene therapies are under investigation for Duchenne muscular dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34175043",
+                "http://www.ncbi.nlm.nih.gov/pubmed/29351004",
+                "http://www.ncbi.nlm.nih.gov/pubmed/31603849"
+            ],
+            "ideal_answer": "Several gene therapies are being investigated for the treatment of Duchenne muscular dystrophy, including gene replacement, exon skipping, suppression of stop codons, CRISPR/Cas9, antisense oligonucleotide-mediated pre-mRNA splicing modulation, and adeno-associated virus-vectorized gene therapies.",
+            "exact_answer": [
+                [
+                    "gene replacement"
+                ],
+                [
+                    "exon skipping"
+                ],
+                [
+                    "suppression of stop codons"
+                ],
+                [
+                    "CRISPR/Cas9"
+                ],
+                [
+                    "antisense oligonucleotide-mediated pre-mRNA splicing modulation"
+                ],
+                [
+                    "adeno-associated virus-vectorized gene therapies"
+                ]
+            ],
+            "type": "list",
+            "id": "6417949d690f196b51000035",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 706,
+                    "offsetInEndSection": 1045,
+                    "text": " In relation to clinical trials, in the last ten years, has experienced great advances in the field of therapeutic options, divided into two major therapeutic targets: 1) the area of gene therapies and 2) trying to reverse or block the pathophysiological processes of the disease, such as inflammation, fibrosis, muscle regeneration, etc. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/31603849",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 646,
+                    "offsetInEndSection": 788,
+                    "text": "Several promising gene therapies are currently under investigation. These include gene replacement, exon skipping, suppression of stop codons.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29351004",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 789,
+                    "offsetInEndSection": 947,
+                    "text": "More recently, a promising gene editing tool referred to as CRISPR/Cas9 offers exciting perspectives for restoring dystrophin expression in patients with DMD.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29351004",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 271,
+                    "offsetInEndSection": 561,
+                    "text": "Adeno-associated virus-vectorized gene therapies to restore dystrophin protein expression using gene replacement or antisense oligonucleotide-mediated pre-mRNA splicing modulation have emerged, making great strides in uncovering barriers to gene therapies for DMD and other genetic diseases",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34175043",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Does CIDEB mutation protect from liver disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35939579"
+            ],
+            "ideal_answer": "Yes, rare germline mutations in CIDEB have been found to confer substantial protection from liver disease.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "63f02a82f36125a426000013",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 65,
+                    "text": "Germline Mutations in CIDEB and Protection against Liver Disease.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939579",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 897,
+                    "offsetInEndSection": 1028,
+                    "text": "We also found that variants in CIDEB, which encodes a structural protein found in hepatic lipid droplets, had a protective effect. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939579",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 2119,
+                    "offsetInEndSection": 2217,
+                    "text": "CONCLUSIONS: Rare germline mutations in CIDEB conferred substantial protection from liver disease.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35939579",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Can you summarize the function of CDK9?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35628286",
+                "http://www.ncbi.nlm.nih.gov/pubmed/34605036",
+                "http://www.ncbi.nlm.nih.gov/pubmed/31603123",
+                "http://www.ncbi.nlm.nih.gov/pubmed/12432243",
+                "http://www.ncbi.nlm.nih.gov/pubmed/9766517"
+            ],
+            "ideal_answer": "CDK9 is a member of the Cdc2-like family of kinases that is involved in regulating several physiological processes. CDK9/Cyclin T1 kinase is a protein kinase, indirectly involved in the cell cycle progression in the form of transcription elongation",
+            "type": "summary",
+            "id": "64089b21201352f04a000021",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 238,
+                    "text": "Cdk9 is a member of the Cdc2-like family of kinases. Its cyclin partners are members of the family of cyclin T (T1, T2a and T2b) and cyclin K. The Cdk9/cyclin T complexes appear to be involved in regulating several physiological processes",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/12432243",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 120,
+                    "offsetInEndSection": 236,
+                    "text": "We previously cloned a cdc2-related kinase, cdk9/PITALRE, that is able to phosphorylate the retinoblastoma protein i",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/9766517",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 924,
+                    "offsetInEndSection": 1057,
+                    "text": "hese results suggest that, among other roles, cdk9/PITALRE plays a role not unlike cdk5 in the differentiation of certain cell types.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/9766517",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 10,
+                    "offsetInEndSection": 143,
+                    "text": " CDK9/Cyclin T1 kinase is a protein kinase, indirectly involved in the cell cycle progression in the form of transcription elongation",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/31603123",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 152,
+                    "offsetInEndSection": 302,
+                    "text": "Among various clinically validated kinases, the cyclin-dependent kinases (CDK) are one of the extensively studied drug targets for clinical developmen",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34605036",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 246,
+                    "text": "Cyclin-dependent kinases (CDKs) are a broad family of proteins involved in the cell cycle and transcriptional regulation. In this article, we explore the antitumoral activity of a novel proteolysis-targeting chimera (PROTAC) compound against CDK9",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35628286",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "How does RBM24 control QT interval?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36454480"
+            ],
+            "ideal_answer": "RBM24 controls QT interval by regulating the splicing of CaMKII\u03b4, which is a critical regulator of cardiac rhythm. The study highlights the importance of splicing regulation in controlling cardiac QT interval",
+            "type": "summary",
+            "id": "6410eead201352f04a000030",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1178,
+                    "offsetInEndSection": 1350,
+                    "text": "Thus, our data suggest that RBM24 is a critical regulator of CaMKII\u03b4 to control the cardiac QT interval, highlighting the key role of splicing regulation in cardiac rhythm.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36454480",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 60,
+                    "text": "RBM24 controls cardiac QT interval through CaMKII\u03b4 splicing.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36454480",
+                    "endSection": "title"
+                }
+            ]
+        },
+        {
+            "body": "Is North Star Ambulatory Assessment score a reliable clinical outcome for disease progression assessment in Duchenne Muscular Dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35501714",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35618576",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35626905",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35862363",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35998119",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35385138"
+            ],
+            "ideal_answer": "Yes, the North Star Ambulatory Assessment (NSAA) is a widely used and validated functional rating scale to assess motor function in boys with Duchenne Muscular Dystrophy (DMD). It has been shown to have good inter-rater and intra-rater reliability, and is sensitive to changes in disease progression over time.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "64105502201352f04a00002d",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1854,
+                    "offsetInEndSection": 1990,
+                    "text": "The results showed a significant difference in the NSAA score between the deletion and nonsense groups at the age of 3 years (P\u2009=\u20090.04).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35501714",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 583,
+                    "offsetInEndSection": 1202,
+                    "text": "The boys were evaluated with standardized assessments at the screening and baseline visits at 32 sites in 5 countries (US, UK, Canada, Italy, Germany). Assessments included timed rise from floor, timed 10\u202fm walk/run, six-minute walk distance, North Star Ambulatory Assessment (NSAA) and forced vital capacity (FVC). Mean age at baseline was 5.9 years (range 4.1-8.1 years). Test-retest reliability was high for functional assessments, regardless of time lag between assessments (up to 90 days) and for the majority of age groups. Correlations were strong among the functional measures and timed tests, less so with FVC.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35618576",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 11,
+                    "offsetInEndSection": 190,
+                    "text": "The North Star Ambulatory Assessment (NSAA) is a validated 17-item functional rating scale and widely used to assess motor function in boys with Duchenne muscular dystrophy (DMD).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35626905",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 2214,
+                    "offsetInEndSection": 2425,
+                    "text": "he Duchenne Muscular Dystrophy Upper-limb Patient-reported Outcome Measure, North Star Ambulatory Assessment, and Myotonic Dystrophy Type 1 Activity and Participation Scale for Clinical Use are also recommended.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35862363",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 173,
+                    "offsetInEndSection": 319,
+                    "text": "A systematic review of patient-reported outcome measures was conducted on the MEDLINE, Embase, AMED, DiTA, and PsycINFO databases in August 2020. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35862363",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1319,
+                    "offsetInEndSection": 1645,
+                    "text": "hese exploratory analyses reveal additional approaches to interpreting the NSAA data beyond just change in NSAA total score. These observations also highlight the importance of reporting items as \"not obtainable\" for a patient with a temporary/transient physical disability that impacts their ability to perform the NSAA test.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35998119",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 5,
+                    "offsetInEndSection": 201,
+                    "text": "To correlate the North Star Ambulatory Assessment (NSAA) and timed rise from floor (TRF) recorded at age of expected peak with age at loss of ambulation (LOA) in Duchenne muscular dystrophy (DMD).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35385138",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1339,
+                    "offsetInEndSection": 1419,
+                    "text": "Higher functional abilities at peak are associated with older age at LOA in DMD.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35385138",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the mechanism of action of rilzabrutinib?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35301810",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35302767",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36182620"
+            ],
+            "ideal_answer": "Rilzabrutinib is an oral Bruton tyrosine kinase (BTK) inhibitor that targets B-cell receptor signaling, leading to inhibition of B-cell activation, proliferation, and differentiation",
+            "type": "summary",
+            "id": "63f032caf36125a42600001a",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 262,
+                    "text": "This study aimed to define the clinically relevant supratherapeutic dose of rilzabrutinib, an oral Bruton tyrosine kinase (BTK) inhibitor, and evaluate potential effects of therapeutic and supratherapeutic exposures on cardiac repolarization in healthy subjects.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35301810",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 104,
+                    "text": "Discovery of Reversible Covalent Bruton's Tyrosine Kinase Inhibitors PRN473 and PRN1008 (Rilzabrutinib).",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35302767",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 303,
+                    "offsetInEndSection": 440,
+                    "text": "Herein, we describe the design of covalent reversible BTK inhibitors and the discoveries of PRN473 (11) and rilzabrutinib (PRN1008, 12). ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35302767",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 813,
+                    "offsetInEndSection": 1016,
+                    "text": "Ongoing trials include new B-cell/plasma-cell targeting agents such as the Bruton tyrosine kinase inhibitors ibrutinib and rilzabrutinib, and the anti-CD38 MoAbs daratumumab and its analogue isatuximab. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36182620",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What are the  types/categories of adult diffuse gliomas.",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35562130",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35587830"
+            ],
+            "ideal_answer": "The types/categories of adult diffuse gliomas include astrocytoma, isocitrate dehydrogenase (IDH)-mutant, oligodendroglioma, IDH-mutant and 1p/19q codeleted, and glioblastoma, IDH-wildtype.",
+            "exact_answer": [
+                [
+                    "astrocytoma"
+                ],
+                [
+                    "isocitrate dehydrogenase (IDH)-mutant"
+                ],
+                [
+                    "oligodendroglioma"
+                ],
+                [
+                    "IDH-mutant and 1p/19q codeleted"
+                ],
+                [
+                    "glioblastoma"
+                ],
+                [
+                    "IDH-wildtype"
+                ]
+            ],
+            "type": "list",
+            "id": "641368ee201352f04a00003c",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 237,
+                    "offsetInEndSection": 435,
+                    "text": " Adult-type diffuse gliomas are genetically defined and include astrocytoma, isocitrate dehydrogenase (IDH)-mutant, oligodendroglioma, IDH-mutant and 1p/19q codeleted, and glioblastoma, IDH-wildtype",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35562130",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 456,
+                    "offsetInEndSection": 769,
+                    "text": " According to the 2021 World Health Organization classification, the three risk types included (1) low-risk, expecting oligodendroglioma, isocitrate dehydrogenase (IDH)-mutant, and 1p/19q-codeleted; (2) intermediate-risk, expecting astrocytoma, IDH-mutant; and (3) high-risk, expecting glioblastoma, IDH-wildtype.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35587830",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Have chimeric antigen receptor (CAR)-T cell therapies been approved for the treatment of B cell malignancies?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/33833444"
+            ],
+            "ideal_answer": "Yes, four CAR-T cell therapies have been approved for the treatment of B cell malignancies based on their unprecedented efficacy in clinical trials.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "6415ca99690f196b51000019",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 345,
+                    "offsetInEndSection": 592,
+                    "text": "Engineered T cells have achieved success in the treatment of blood cancers, with four chimeric antigen receptor (CAR)-T cell therapies now approved for the treatment of B cell malignancies based on their unprecedented efficacy in clinical trials. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33833444",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is golodirsen effective for the treatment of Duchenne muscular dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34788571",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36401026",
+                "http://www.ncbi.nlm.nih.gov/pubmed/32026421",
+                "http://www.ncbi.nlm.nih.gov/pubmed/33025945"
+            ],
+            "ideal_answer": "Yes, golodirsen is effective for the treatment of Duchenne muscular dystrophy in patients with a confirmed mutation of the DMD gene that is amenable to exon 53 skipping. It has been conditionally approved by the FDA and has shown positive results in increasing dystrophin protein and exon skipping.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "64178e4b690f196b51000022",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 783,
+                    "offsetInEndSection": 902,
+                    "text": "Golodirsen is a provisionally approved PMO-based drug for approx. 8% of all DMD patients amenable to exon 53 skipping. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33025945",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 599,
+                    "offsetInEndSection": 710,
+                    "text": "This article summarizes the milestones in the development of golodirsen leading to this first approval for DMD.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32026421",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 252,
+                    "offsetInEndSection": 513,
+                    "text": "n December 2019, intravenous golodirsen received its first global approval in the USA for the treatment of DMD in patients with a confirmed mutation of the DMD gene that is amenable to exon 53 skipping, based on positive results from a phase I/II clinical trial",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32026421",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 334,
+                    "offsetInEndSection": 486,
+                    "text": "To date, four PMOs, including eteplirsen, casimersen, viltolarsen, and golodirsen, have been conditionally approved by the FDA for the treatment of DMD.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36401026",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 965,
+                    "offsetInEndSection": 1069,
+                    "text": "Golodirsen increased dystrophin protein (16.0-fold; P\u2009<\u20090.001) and exon skipping (28.9-fold; P\u2009<\u20090.001).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34788571",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1381,
+                    "offsetInEndSection": 1552,
+                    "text": "This study provides evidence for golodirsen biologic activity and long-term safety in a declining DMD population and suggests functional benefit versus external controls. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34788571",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is Baricitinib effective for Alopecia Areata?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35330989",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35334197"
+            ],
+            "ideal_answer": "Yes, Baricitinib has shown to be effective for Alopecia Areata in two Phase 3 Trials, where it was found to be superior to placebo in terms of hair regrowth at 36 weeks.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "63f043e4f36125a426000023",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 345,
+                    "offsetInEndSection": 617,
+                    "text": "Thus far, it has been approved for the treatment of rheumatoid arthritis (RA); however, an increasing number of studies have suggested that baricitinib can be used to treat dermatological diseases, such as atopic dermatitis (AD), psoriasis, vitiligo, and alopecia areata. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35330989",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 744,
+                    "offsetInEndSection": 979,
+                    "text": "We reviewed the application, efficacy, side effects, precautions, limitations and prospect of baricitinib in atopic dermatitis, psoriasis, vitiligo and alopecia areata (AA) in recent 5 years including clinical trials and case reports. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35330989",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 54,
+                    "text": "Two Phase 3 Trials of Baricitinib for Alopecia Areata.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35334197",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 1870,
+                    "offsetInEndSection": 2037,
+                    "text": "CONCLUSIONS: In two phase 3 trials involving patients with severe alopecia areata, oral baricitinib was superior to placebo with respect to hair regrowth at 36 weeks. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35334197",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Anemia is not associated with chronic kidney failure",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35774427",
+                "http://www.ncbi.nlm.nih.gov/pubmed/21877597",
+                "http://www.ncbi.nlm.nih.gov/pubmed/2010480"
+            ],
+            "ideal_answer": "No, anemia is a common manifestation of chronic kidney failure.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "64137616201352f04a000041",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 12,
+                    "offsetInEndSection": 253,
+                    "text": "This study was to explore the clinical efficacy and safety of darbepoetin alfa injection replacing epoetin alfa injection (recombinant human erythropoietin injection, rHuEPO) for the treatment of anemia associated with chronic kidney failure",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35774427",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 62,
+                    "text": "Anaemia is a common manifestation ofa chronic kidney failure. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/21877597",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 91,
+                    "text": "The hormone deficiency that underlies anemia in chronic kidney failure can now be corrected",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/2010480",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the estimated reduction in time when using online genetic counseling?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/26785833"
+            ],
+            "ideal_answer": "Online counseling has been estimated to reduce time by about 8%.",
+            "exact_answer": [
+                "reduced time"
+            ],
+            "type": "factoid",
+            "id": "6415bc8d690f196b5100000f",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1548,
+                    "offsetInEndSection": 1645,
+                    "text": "We estimated reduced time and costs by online counseling with about 8% and 10-12%, respectively. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/26785833",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is deflazacort more efficient than prednisone/prednisolone for the treatment of Duchenne muscular dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35381069",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35723111"
+            ],
+            "ideal_answer": "No, evidence suggests that patients receiving deflazacort experience similar or slower rates of functional decline compared with those receiving prednisone/prednisolone.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "64163660690f196b5100001d",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1505,
+                    "offsetInEndSection": 1779,
+                    "text": "Both daily prednisone and daily deflazacort were more effective than intermittent prednisone for the primary outcome (P\u2009<\u2009.001 for daily prednisone vs intermittent prednisone using a global test; P\u2009=\u2009.017 for daily deflazacort vs intermittent prednisone using a global test)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35381069",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 2790,
+                    "offsetInEndSection": 3133,
+                    "text": "Among patients with Duchenne muscular dystrophy, treatment with daily prednisone or daily deflazacort, compared with intermittent prednisone alternating 10 days on and 10 days off, resulted in significant improvement over 3 years in a composite outcome comprising measures of motor function, pulmonary function, and satisfaction with treatment",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35381069",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 354,
+                    "text": "Deflazacort and prednisone/prednisolone are the current standard of care for patients with Duchenne muscular dystrophy (DMD) based on evidence that they improve muscle strength, improve timed motor function, delay loss of ambulation, improve pulmonary function, reduce the need for scoliosis surgery, delay onset of cardiomyopathy, and increase survival.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35723111",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 885,
+                    "offsetInEndSection": 1142,
+                    "text": "Evidence from randomized clinical trials, prospective studies, meta-analyses, and post-hoc analyses suggests that patients receiving deflazacort experience similar or slower rates of functional decline compared with those receiving prednisone/prednisolone. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35723111",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What are the targets of Mosunetuzumab?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35928819",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35947358",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35803286",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35182296"
+            ],
+            "ideal_answer": "Mosunetuzumab targets CD20 and CD3.",
+            "exact_answer": [
+                [
+                    "CD20"
+                ],
+                [
+                    "CD3"
+                ]
+            ],
+            "type": "list",
+            "id": "6402bc2d201352f04a000005",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 663,
+                    "offsetInEndSection": 994,
+                    "text": "They combine two different monospecific antigen-binding regions that target CD20 on B cells and engage T cells via CD3 in a 1:1 or 2:1 CD20:CD3 antigen binding fragment (Fab) format. The results of different phase 1 trials with BsAbs, including mosunetuzumab, glofitamab, epcoritamab and odeonextamab, have been recently published.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35928819",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 174,
+                    "text": "Mosunetuzumab (Lunsumio\u00ae), an anti-CD20/CD3 T-cell engaging bispecific antibody, is being developed by Roche for the treatment of relapsed or refractory follicular lymphoma. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35947358",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 145,
+                    "text": "BACKGROUND: Mosunetuzumab is a CD20\u2009\u00d7\u2009CD3 T-cell-engaging bispecific monoclonal antibody that redirects T cells to eliminate malignant B cells. I",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35803286",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 655,
+                    "offsetInEndSection": 774,
+                    "text": "However, several CD20 \u00d7 CD3 BsAbs including odronextamab, mosunetuzumab, glofitamab, and epcoritamab emerged recently. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35182296",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is anaphylaxis a results of mast cell activation?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/20678798",
+                "http://www.ncbi.nlm.nih.gov/pubmed/23855441",
+                "http://www.ncbi.nlm.nih.gov/pubmed/17128671",
+                "http://www.ncbi.nlm.nih.gov/pubmed/19082920"
+            ],
+            "ideal_answer": "Yes, anaphylaxis is a severe and life-threatening allergic reaction that occurs due to the activation of mast cells and basophils, which release various inflammatory mediators such as histamine, tryptase, and cytokines in response to an allergen or antigen.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "64144200201352f04a000043",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 335,
+                    "text": "Mast cells are important effector cells in allergic inflammatory reactions. The aggregation of the high-affinity IgE receptor (FcepsilonRI) on the surface of mast cells initiates a complex cascade of signaling events that ultimately leads to the release of various mediators involved in allergic inflammation and anaphylactic reactions",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/19082920",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 101,
+                    "offsetInEndSection": 228,
+                    "text": "During the IgE-mediated anaphylactic reaction mast cells release proteases such as tryptase, histamine and vasoactive mediators",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/17128671",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 485,
+                    "offsetInEndSection": 821,
+                    "text": "Histamine and other deleterious inflammatory mediators promote vascular permeability and smooth muscle contraction; they are readily released from sensitized mast cells and basophils challenged with antigen. Anaphylaxis may be triggered by a variety of antigens including insect and reptile venom, a variety of drugs, vaccines, and food",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23855441",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 209,
+                    "offsetInEndSection": 364,
+                    "text": "Earlier mast cells were only known for their important role in the type 1 allergic reactions (i.e. anaphylaxis or some contact hypersensitivity reactions) ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/20678798",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "On which two clinical trials was the approval of Keytruda based?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/28835513"
+            ],
+            "ideal_answer": "The approval of Keytruda was based on two randomized, open-label, active-controlled trials.",
+            "exact_answer": [
+                [
+                    "Two r"
+                ],
+                [
+                    "omized, open-label, active-controlled trials"
+                ]
+            ],
+            "type": "list",
+            "id": "6415c6b6690f196b51000015",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 876,
+                    "offsetInEndSection": 1640,
+                    "text": "Approval was based on two randomized, open-label, active-controlled trials demonstrating statistically significant improvements in progression-free survival (PFS) and overall survival (OS) for patients randomized to pembrolizumab compared with chemotherapy. In KEYNOTE-024, patients with previously untreated mNSCLC who received pembrolizumab (200 mg intravenously [IV] every 3 weeks) had a statistically significant improvement in OS (hazard ratio [HR] 0.60; 95% confidence interval [CI]: 0.41-0.89; p\u2009=\u2009.005), and significant improvement in PFS (HR 0.50; 95% CI: 0.37-0.68; p\u2009<\u2009.001). In KEYNOTE-010, patients with disease progression on or after platinum-containing chemotherapy received pembrolizumab IV 2 mg/kg, 10 mg/kg, or docetaxel 75 mg/m2 every 3 weeks. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/28835513",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is viltolarsen effective for the treatment of Duchenne muscular dystrophy?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36401022"
+            ],
+            "ideal_answer": "Yes, viltolarsen has shown effectiveness in treating Duchenne muscular dystrophy by restoring the reading frame of the DMD gene through skipping exon 53 and producing a truncated but functional form of dystrophin. It has received FDA approval for DMD treatment in 2020 after successful clinical trials in North America and Japan.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "64178e34690f196b51000021",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 174,
+                    "text": "Viltolarsen is a phosphorodiamidate morpholino antisense oligonucleotide (PMO) designed to skip exon 53 of the DMD gene\u00a0for the treatment of Duchenne muscular dystrophy (DMD)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36401022",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 694,
+                    "offsetInEndSection": 830,
+                    "text": "Viltolarsen restores the reading frame of the DMD gene by skipping \u00a0exon 53\u00a0and produces a truncated but functional form of dystrophin. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36401022",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 505,
+                    "offsetInEndSection": 693,
+                    "text": "After showing hopeful results in pre-clinical trials and several clinical trials across North America and Japan, it received US Food and Drug Administration (FDA) approval for DMD\u00a0in 2020.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36401022",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is Wilkie's syndrome?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/32116320",
+                "http://www.ncbi.nlm.nih.gov/pubmed/32317620",
+                "http://www.ncbi.nlm.nih.gov/pubmed/33655184",
+                "http://www.ncbi.nlm.nih.gov/pubmed/33083170",
+                "http://www.ncbi.nlm.nih.gov/pubmed/32821627",
+                "http://www.ncbi.nlm.nih.gov/pubmed/32399444"
+            ],
+            "ideal_answer": "Wilkie's syndrome, also known as Superior Mesenteric Artery Syndrome (SMAS), is a rare condition caused by the compression of the third part of the duodenum between the abdominal aorta and the superior mesenteric artery, which can lead to bowel obstruction and vague abdominal symptoms",
+            "type": "summary",
+            "id": "640410d1201352f04a000012",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 147,
+                    "text": "BACKGROUND: The superior mesenteric artery (SMA) syndrome, also known as Wilkie's syndrome, is one of the rarest causes of small bowel obstruction.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32116320",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 290,
+                    "text": "BACKGROUND Nutcracker syndrome and Wilkie's syndrome are rare vascular diseases due to the abnormal course of the superior mesenteric artery originating from the abdominal aorta with reduced angle (<22\u00b0) and consequent compression of the left renal vein (nutcracker) and duodenum (Wilkie). ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32317620",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 201,
+                    "text": "INTRODUCTION: Wilkie's Syndrome, also known as Superior Mesenteric Artery Syndrome (SMAS), is a rare cause of bowel obstruction that can contribute to vague abdominal symptoms on clinical presentation.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33655184",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 127,
+                    "text": "Superior mesenteric artery syndrome, or Wilkie's syndrome, is an unexpected cause of upper gastrointestinal tract obstruction. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33083170",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 212,
+                    "text": "Introduction Superior mesenteric artery (SMA) or Wilkie's syndrome is a rare condition arising due to compression of the third part of the duodenum between the abdominal aorta and the superior mesenteric artery.\u00a0",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32821627",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 225,
+                    "text": "Superior mesenteric artery syndrome (SMA syndrome) or Wilkie's syndrome is a rare etiology of duodenal obstruction due to compression of the third portion of the duodenum between the superior mesenteric artery and the aorta. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32399444",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is a PROTAC?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35680848",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35671157",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35412837"
+            ],
+            "ideal_answer": "A PROTAC is a heterobifunctional molecule that induces protein degradation by forming a ternary complex between a target protein and an E3 ubiquitin ligase. It consists of two ligands - one that binds to the target protein and the other that recruits the E3 ubiquitin ligase",
+            "type": "summary",
+            "id": "641461bb201352f04a000046",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 123,
+                    "text": "PROteolysis TArgeting Chimeras (PROTACs) technology is a new protein-degradation strategy that has emerged in recent years.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35680848",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 362,
+                    "text": "Proteolysis-targeting chimeras (PROTACs) are heterobifunctional molecules consisting of one ligand that binds to a protein of interest (POI) and another that can recruit an E3 ubiquitin ligase. The chemically-induced proximity between the POI and E3 ligase results in ubiquitination and subsequent degradation of the POI by the ubiquitin-proteasome system (UPS).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35671157",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 175,
+                    "text": "Proteolysis targeting chimeras (PROTACs) are molecules that induce protein degradation via formation of ternary complexes between an E3 ubiquitin ligase and a target protein. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35412837",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Can the concept of digital twins be applied in Precision Nutrition?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/32770212"
+            ],
+            "ideal_answer": "Yes, the concept of digital twins can be applied in Precision Nutrition. By combining genetic information with longitudinal metabolomic, immune, behavioral, and gut microbial parameters, and bioclinical variables, a digital replica or virtual digital twin of oneself can be created, which can help personalize and optimize nutrition interventions and outcomes.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "6410f839201352f04a000032",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 58,
+                    "text": "The \"Virtual Digital Twins\" Concept in Precision Nutrition",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32770212",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 559,
+                    "offsetInEndSection": 848,
+                    "text": "We herein discuss how genetic information combined with longitudinal metabolomic, immune, behavioral, and gut microbial parameters, and bioclinical variables could define a digital replica of oneself, a \"virtual digital twin,\" which could serve to guide nutrition in a personalized manner.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32770212",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the mechanism of action of Teclistamab?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35661166",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35749004",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36006441",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36352205"
+            ],
+            "ideal_answer": "Teclistamab is a bispecific antibody that targets both CD3 on T cells and B-cell maturation antigen (BCMA) on myeloma cells. It works by redirecting T cells to attack and kill myeloma cells expressing BCMA, leading to tumor cell death",
+            "type": "summary",
+            "id": "63eef6edf36125a42600000d",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 198,
+                    "text": "BACKGROUND: Teclistamab is a T-cell-redirecting bispecific antibody that targets both CD3 expressed on the surface of T cells and B-cell maturation antigen expressed on the surface of myeloma cells.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35661166",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 190,
+                    "text": "BACKGROUND: Teclistamab (JNJ-64007957), a B-cell maturation antigen \u00d7 CD3 bispecific antibody, displayed potent T-cell-mediated cytotoxicity of multiple myeloma cells in preclinical studies.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35749004",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 224,
+                    "offsetInEndSection": 406,
+                    "text": "The bispecific antibodies teclistamab (BCMA\u00d7CD3) and talquetamab (G protein-coupled receptor family C group 5 member D [GPRC5D]\u00d7CD3) are in clinical development as therapies for MM. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36006441",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 219,
+                    "text": "Teclistamab (TECVAYLI\u00ae), a bispecific antibody that targets CD3 and B cell maturation antigen (BCMA), is being developed by Janssen Research and Development for the treatment of relapsed or refractory multiple myeloma. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36352205",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "The diagnosis of cholestasis is based on the elevations seen in what liver function tests?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34866042",
+                "http://www.ncbi.nlm.nih.gov/pubmed/26291593",
+                "http://www.ncbi.nlm.nih.gov/pubmed/19092641",
+                "http://www.ncbi.nlm.nih.gov/pubmed/10770681"
+            ],
+            "ideal_answer": "The diagnosis of cholestasis is based on the elevations seen in alkaline phosphatase and conjugated bilirubin levels, which are indicative of impaired bile flow.",
+            "exact_answer": [
+                [
+                    "alkaline phosphatase"
+                ],
+                [
+                    "conjugated bilirubin"
+                ]
+            ],
+            "type": "list",
+            "id": "640c8309201352f04a000024",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 481,
+                    "text": "The term cholestasis refers to bile acid retention, whether within the hepatocyte or in the bile ducts of any caliber. Biochemically, it is defined by a level of alkaline phosphatase that is 1.67-times higher than the upper limit of normal. Cholestatic diseases can be associated with an inflammatory process of the liver that destroys hepatocytes (hepatitis), withjaundice (yellowing of the skin and mucus membranes, associated with elevated serum bilirubin levels), or with both,",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34866042",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 376,
+                    "offsetInEndSection": 468,
+                    "text": "Workup revealed elevated liver transaminases, alkaline phosphatase, and conjugated bilirubin",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/26291593",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 423,
+                    "offsetInEndSection": 613,
+                    "text": "he symptoms started about 1 week ago. Initial laboratory tests showed abnormal liver enzymes with elevated conjugated bilirubin and alkaline phosphatase suggestive of cholestatic jaundice. A",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/19092641",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 611,
+                    "offsetInEndSection": 896,
+                    "text": "The outcome was evaluated by monitoring clinical and biochemical markers of cholestasis, including alanine aminotransferase, aspartate aminotransferase, alkaline phosphatase, gamma-glutamyl transpeptidase, cholesterol, total serum tasting bile acids and total and conjugated bilirubin ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/10770681",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Which company produces Keytruda?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/28835513"
+            ],
+            "ideal_answer": "Keytruda is produced by Merck & Co., Inc.",
+            "exact_answer": [
+                "Merck & Co., Inc."
+            ],
+            "type": "factoid",
+            "id": "6415c599690f196b51000013",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 712,
+                    "text": "On October 24, 2016, the U.S. Food and Drug Administration (FDA) approved pembrolizumab (Keytruda; Merck & Co., Inc., https://www.merck.com) for treatment of patients with metastatic non-small cell lung cancer (mNSCLC) whose tumors express programmed death-ligand 1 (PD-L1) as determined by an FDA-approved test, as follows: (a) first-line treatment of patients with mNSCLC whose tumors have high PD-L1 expression (tumor proportion score [TPS] \u226550%), with no epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK) genomic tumor aberrations, and (b) treatment of patients with mNSCLC whose tumors express PD-L1 (TPS \u22651%), with disease progression on or after platinum-containing chemotherapy.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/28835513",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Based on clinical trial data, can pioglitazone delay cognitive impairment for people at risk for Alzheimer's disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34146512"
+            ],
+            "ideal_answer": "No, based on clinical trial data, pioglitazone did not delay cognitive impairment for people at risk for Alzheimer's disease.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "64040edf201352f04a000011",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 3711,
+                    "offsetInEndSection": 3793,
+                    "text": "INTERPRETATION: Pioglitazone did not delay the onset of mild cognitive impairment.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34146512",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Cereblon (CRBN)  has been identified as the target for what type of drug?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36252444",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35045330",
+                "http://www.ncbi.nlm.nih.gov/pubmed/34316334",
+                "http://www.ncbi.nlm.nih.gov/pubmed/31202702",
+                "http://www.ncbi.nlm.nih.gov/pubmed/31187860"
+            ],
+            "ideal_answer": "Cereblon (CRBN) has been identified as the target for thalidomide and its derivatives such as IMiDs (immunomodulatory drugs).",
+            "exact_answer": [
+                "thalidomide and its derivatives",
+                "IMiDs"
+            ],
+            "type": "factoid",
+            "id": "6414638c201352f04a000047",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 128,
+                    "offsetInEndSection": 195,
+                    "text": "Cereblon is a well-known target of thalidomide and its derivatives.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36252444",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 399,
+                    "offsetInEndSection": 580,
+                    "text": "We have identified novel CRBN inhibitors, namely DHFO and its analogs, with structural features that are slightly different from thalidomide but stronger cereblon-binding affinity. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36252444",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 98,
+                    "offsetInEndSection": 338,
+                    "text": " It additionally modulates the anti-myeloma effect of the immunomodulatory drugs (IMiDs) thalidomide, lenalidomide, and pomalidomide. IMiDs bind to CRBN and recruit neo-substrates for their ubiquitination and proteasome-mediated degradation",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35045330",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 162,
+                    "offsetInEndSection": 443,
+                    "text": ". Cereblon (CRBN)-targeting immunomodulatory agents (IMiDs\u00ae) lenalidomide (LEN) and pomalidomide (POM) play a central role in combination regimens due to their pleiotropic antitumor/immunomodulatory mechanisms that synergize with many anti-myeloma approved or developmental agents.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34316334",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 293,
+                    "text": "Thalidomide, well known for its potent teratogenicity, has been re-evaluated as a clinically effective drug for the treatment of multiple myeloma. Although the direct target of thalidomide had been unclear until recently, we identified cereblon (CRBN) as a primary direct target of this drug b",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/31202702",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 815,
+                    "offsetInEndSection": 1076,
+                    "text": "The molecular mechanism of action of IMiDs remained unclear for a long time until 2010 when the protein cereblon (CRBN) was identified as a primary direct target. IMiDs binds to CRBN and alters the substrate specificity of the CRBN E3 ubiquitin ligase complex, ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/31187860",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Does silencing of SRRM4 promote microexon inclusion?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/33207694"
+            ],
+            "ideal_answer": "No, silencing of SRRM4 results in reduced microexon inclusion in mRNAs critical for neural differentiation.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "63f9cdb033942b094c000012",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 80,
+                    "text": "SRRM4 Expands the Repertoire of Circular RNAs by Regulating Microexon Inclusion.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33207694",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 1272,
+                    "offsetInEndSection": 1572,
+                    "text": "Overexpressing SRRM4, known for regulating ME inclusion in mRNAs critical for neural differentiation, in human HEK293 cells resulted in the biogenesis of over 2000 novel ME-circRNAs, including ME-circEIF4G3, and changes in the abundance of many canonical circRNAs, including circSETDB2 and circLBRA. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33207694",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Which drugs are included in the AZD7442?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35993765",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35914259",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35904210"
+            ],
+            "ideal_answer": "AZD7442 is a combination of two long-acting monoclonal antibodies, tixagevimab and cilgavimab.",
+            "exact_answer": [
+                [
+                    "Tixagevimab"
+                ],
+                [
+                    "cilgavimab"
+                ]
+            ],
+            "type": "list",
+            "id": "63f03a20f36125a42600001c",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 207,
+                    "text": "AZD7442, a combination of two long-acting monoclonal antibodies (tixagevimab [AZD8895] and cilgavimab [AZD1061]), has been authorized for the prevention and treatment of coronavirus disease 2019 (COVID-19). ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35993765",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 59,
+                    "offsetInEndSection": 134,
+                    "text": "Intramuscular AZD7442 (tixagevimab-cilgavimab) for prevention of Covid-19. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35914259",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 175,
+                    "text": "Association Between AZD7442 (Tixagevimab-Cilgavimab) Administration and Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection, Hospitalization, and Mortality.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35904210",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 199,
+                    "text": "BACKGROUND: Intramuscular AZD7442 (Tixagevimab-Cilgavimab, (Evusheld)) has been found effective among immunocompromised individuals (ICI) in reducing Sars-Cov-2 infection and severe disease in ICIs. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35904210",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What were the first 2 PD-1 inhibitors approved by the FDA in 2014?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/32984529",
+                "http://www.ncbi.nlm.nih.gov/pubmed/26822752",
+                "http://www.ncbi.nlm.nih.gov/pubmed/29222273",
+                "http://www.ncbi.nlm.nih.gov/pubmed/25682878"
+            ],
+            "ideal_answer": "The first two PD-1 inhibitors approved by the FDA in 2014 were nivolumab and pembrolizumab.",
+            "exact_answer": [
+                [
+                    "Nivolumab"
+                ],
+                [
+                    "Pembrolizumab"
+                ]
+            ],
+            "type": "list",
+            "id": "640ddd9d201352f04a000028",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 233,
+                    "offsetInEndSection": 324,
+                    "text": "2 different programmed cell death protein 1 (PD-1) inhibitors, Nivolumab and Pembrolizumab.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32984529",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 146,
+                    "offsetInEndSection": 306,
+                    "text": "The first monoclonal antibodies against the immune checkpoint programmed death 1 (PD-1) receptor, nivolumab and pembrolizumab, are now approved for clinical use",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/26822752",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 100,
+                    "offsetInEndSection": 289,
+                    "text": "e programmed cell death protein 1 (PD-1) inhibitors, nivolumab and pembrolizumab, have quickly been incorporated into clinical trials for first- and second-line therapy of Hodgkin lymphoma.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29222273",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 361,
+                    "offsetInEndSection": 570,
+                    "text": "The first programmed death 1 (PD-1) inhibitor, pembrolizumab, was recently approved by the United States Food and Drug Administration for the treatment of melanoma; nivolumab was previously approved in Japan. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/25682878",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the difference between dermatillomania and skin picking disorder?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/33808008"
+            ],
+            "ideal_answer": "Dermatillomania and skin picking disorder are two terms used interchangeably to describe the same condition characterized by recurrent and compulsive picking of the skin that results in skin damage, but dermatillomania specifically refers to the picking of one's own skin, while skin picking disorder refers to the picking of one's own skin or someone else's skin.",
+            "exact_answer": [
+                "difference"
+            ],
+            "type": "factoid",
+            "id": "6414c4cf690f196b51000006",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 241,
+                    "text": "Dermatillomania or skin picking disorder (SPD) is a chronic, recurrent, and treatment resistant neuropsychiatric disorder with an underestimated prevalence that has a concerning negative impact on an individual's health and quality of life. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33808008",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What causes Japanese Spotted Fever?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/32863353",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36016429",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35507925"
+            ],
+            "ideal_answer": "Japanese Spotted Fever is caused by Rickettsia japonica, a member of the spotted fever group rickettsiae.",
+            "exact_answer": [
+                "Rickettsia japonica"
+            ],
+            "type": "factoid",
+            "id": "63eefa3bf36125a426000012",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 189,
+                    "text": "Non-pathogenic Rickettsia species LON strains closely related to an agent of Japanese spotted fever (JSF), R. japonica, were isolated in Japan from Haemaphysalis longicornis ticks in 2001. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32863353",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 221,
+                    "text": "Severe fever with thrombocytopenia syndrome (SFTS) and Japanese spotted fever (JSF; a spotted fever group rickettsiosis) are tick-borne zoonoses that are becoming a significant public health threat in Japan and East Asia.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36016429",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 153,
+                    "offsetInEndSection": 288,
+                    "text": "Rickettsia japonica is a member of SFG rickettsiae causing Japanese spotted fever (JSF) and can transmit to humans via infected ticks. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35507925",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the difference between PD-1 and PD-L1?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35668012",
+                "http://www.ncbi.nlm.nih.gov/pubmed/30851544",
+                "http://www.ncbi.nlm.nih.gov/pubmed/31436392"
+            ],
+            "ideal_answer": "PD-1 is a receptor expressed on T-cells, while PD-L1 is a ligand expressed on tumor cells and other immune cells. The interaction between PD-1 and PD-L1 leads to T-cell exhaustion and immune evasion by the tumor cells. Inhibitors of either PD-1 or PD-L1 can block this interaction and promote anti-tumor immune responses",
+            "type": "summary",
+            "id": "640dde93201352f04a000029",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 14,
+                    "offsetInEndSection": 177,
+                    "text": "To compare the real-world safety profile of programmed cell death-1 (PD-1) and programmed cell death ligand-1 (PD-L1) inhibitors between younger and older patients",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35668012",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 164,
+                    "text": "Programmed Cell Death Receptor (PD-1) and its Ligand (PD-L1) pathway inhibitor therapy has been explored in the field of oncology treatment mainly for solid tumors.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/30851544",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 11,
+                    "offsetInEndSection": 211,
+                    "text": " Inhibitors of programmed cell death-1 (PD-1) and its ligand (PD-L1) have been increasingly used in head and neck cancer therapy and reported to improve the outcomes with an acceptable safety profile.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/31436392",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What would be the benefits of using a virtual digital twin in nutrition?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/32770212"
+            ],
+            "ideal_answer": "A virtual digital twin could allow for personalized nutrition recommendations based on an individual's unique genetic, metabolic, and microbial makeup, as well as their behavioral and bioclinical data. This could lead to more effective and efficient nutrition interventions and better health outcomes",
+            "type": "summary",
+            "id": "6410f8b2201352f04a000033",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 559,
+                    "offsetInEndSection": 968,
+                    "text": "We herein discuss how genetic information combined with longitudinal metabolomic, immune, behavioral, and gut microbial parameters, and bioclinical variables could define a digital replica of oneself, a \"virtual digital twin,\" which could serve to guide nutrition in a personalized manner. Such a model may revolutionize the management of obesity and its comorbidities, and provide a pillar for healthy aging.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32770212",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is levosimendan effective for amyotrophic lateral sclerosis?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34536404",
+                "http://www.ncbi.nlm.nih.gov/pubmed/31315908"
+            ],
+            "ideal_answer": "No, levosimendan was not found to be effective for amyotrophic lateral sclerosis in maintaining respiratory function in a broad population.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "64040af9201352f04a00000d",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 2720,
+                    "offsetInEndSection": 3018,
+                    "text": "INTERPRETATION: Levosimendan was not superior to placebo in maintaining respiratory function in a broad population with amyotrophic lateral sclerosis. Although levosimendan was generally well tolerated, increased heart rate and headache occurred more frequently with levosimendan than with placebo.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34536404",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1464,
+                    "offsetInEndSection": 1668,
+                    "text": "CONCLUSIONS: Levosimendan did not achieve the primary endpoint of improving sitting SVC in ALS. Headache and increased heart rate were increased on levosimendan, although it was otherwise well tolerated. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/31315908",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What are the clinical symptoms of an ornithine transcarbamylase deficiency?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36362876",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36217298",
+                "http://www.ncbi.nlm.nih.gov/pubmed/3826955",
+                "http://www.ncbi.nlm.nih.gov/pubmed/3945292"
+            ],
+            "ideal_answer": "The clinical symptoms of ornithine transcarbamylase deficiency may include irritability, vomiting, lethargy, protein avoidance, ataxia, Stage II coma, delayed physical growth, developmental delay, and seizures.",
+            "exact_answer": [
+                [
+                    "Irritability"
+                ],
+                [
+                    "Vomiting"
+                ],
+                [
+                    "Lethargy"
+                ],
+                [
+                    "Protein avoidance"
+                ],
+                [
+                    "Ataxia"
+                ],
+                [
+                    "Stage II coma"
+                ],
+                [
+                    "Delayed physical growth"
+                ],
+                [
+                    "Developmental delay"
+                ],
+                [
+                    "Seizures"
+                ]
+            ],
+            "type": "list",
+            "id": "6414c0f7690f196b51000001",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 221,
+                    "text": "X-linked ornithine transcarbamylase deficiency (OTCD) is the most common urea cycle defect. The disease severity ranges from asymptomatic carrier state to severe neonatal presentation with hyperammonaemic encephalopathy. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36362876",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 11,
+                    "offsetInEndSection": 273,
+                    "text": "Ornithine transcarbamylase deficiency (OTC-D) is an X-linked metabolic disease and the most common urea cycle disorder. Due to high phenotypic heterogeneity, ranging from lethal neonatal hyperammonemic events to moderate symptoms and even asymptomatic individual",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36217298",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 96,
+                    "text": "Deficiency of ornithine transcarbamylase, an enzyme in the urea cycle, results in hyperammonemia",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/3826955",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 342,
+                    "offsetInEndSection": 589,
+                    "text": "extreme irritability (100 percent), episodic vomiting and lethargy (100 percent), protein avoidance (92 percent), ataxia (77 percent), Stage II coma (46 percent), delayed physical growth (38 percent), developmental delay (38 percent), and seizures",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/3945292",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "How does SRSF11 contribute to metastasis potential of colorectal cancer?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36394206"
+            ],
+            "ideal_answer": "SRSF11 inhibits alternative splicing of HSPA12A pre-RNA, leading to pro-metastatic effects in colorectal cancer. The study suggests a novel relationship between SRSF11-regulated splicing and CRC metastasis, and highlights the role of PAK5/SRSF11/HSPA12A signaling pathway in cancer progression",
+            "type": "summary",
+            "id": "63fa197c201352f04a000003",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 107,
+                    "text": "Alternative splicing of HSPA12A pre-RNA by SRSF11 contributes to metastasis potential of colorectal cancer.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36394206",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 1600,
+                    "offsetInEndSection": 1923,
+                    "text": "SRSF11 exerts pro-metastatic effects in CRC by inhibiting the AS of HSPA12A pre-RNA. Our findings point to SRSF11-regulated HSPA12A splicing as a novel relationship between SRSF11-regulated splicing and CRC metastasis and suggest a PAK5/SRSF11/HSPA12A axis as a potential therapeutic target and prognostic biomarker in CRC.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36394206",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Olokizumab is tested for which disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34344706",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36001712"
+            ],
+            "ideal_answer": "Olokizumab, a humanized monoclonal antibody targeting the interleukin-6 cytokine directly, is being tested for the treatment of rheumatoid arthritis.",
+            "exact_answer": [
+                "rheumatoid arthritis"
+            ],
+            "type": "factoid",
+            "id": "63eef60ef36125a42600000c",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 240,
+                    "text": "Olokizumab, a monoclonal antibody against interleukin 6, in combination with methotrexate in patients with rheumatoid arthritis inadequately controlled by methotrexate: efficacy and safety results of a randomised controlled phase III study.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34344706",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 154,
+                    "text": "OBJECTIVE: To evaluate the efficacy and safety of olokizumab (OKZ) in patients with active rheumatoid arthritis despite treatment with methotrexate (MTX).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34344706",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1387,
+                    "offsetInEndSection": 1586,
+                    "text": "CONCLUSIONS: Treatment with OKZ was associated with significant improvement in signs, symptoms and physical function of rheumatoid arthritis without discernible differences between the two regimens. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34344706",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 64,
+                    "text": "Olokizumab versus Placebo or Adalimumab in Rheumatoid Arthritis.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36001712",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 245,
+                    "text": "BACKGROUND: The cytokine interleukin-6 is involved in the pathogenesis of rheumatoid arthritis. Olokizumab, a humanized monoclonal antibody targeting the interleukin-6 cytokine directly, is being tested for the treatment of rheumatoid arthritis.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36001712",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 2389,
+                    "offsetInEndSection": 2722,
+                    "text": "CONCLUSIONS: In patients with rheumatoid arthritis who were receiving maintenance methotrexate, olokizumab was superior to placebo and noninferior to adalimumab in producing an ACR20 response at 12 weeks. Larger and longer trials are required to determine the efficacy and safety of olokizumab in patients with rheumatoid arthritis. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36001712",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Please summarize the function of Trophinin-associated protein (TROAP)",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34077623",
+                "http://www.ncbi.nlm.nih.gov/pubmed/29956806"
+            ],
+            "ideal_answer": "Trophinin-associated protein (TROAP) is a cytoplasmic protein that plays a role in spindle assembly and cell invasion. Its biological function in cancer is still being studied",
+            "type": "summary",
+            "id": "6413730e201352f04a00003f",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1,
+                    "offsetInEndSection": 114,
+                    "text": "ROAP regulates cell cycle and promotes tumor progression through Wnt/\u03b2-Catenin signaling pathway in glioma cells.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34077623",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 178,
+                    "text": "Trophinin associated protein (TROAP) is a cytoplasmic protein required for spindle assembly and cell invasion; however, its biological function in cancer remains to be elucidated",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29956806",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "How does SRSF11 promote metastasis of colon cancer?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36394206"
+            ],
+            "ideal_answer": "SRSF11 promotes metastasis of colon cancer by inhibiting the alternative splicing of HSPA12A pre-RNA, which is a novel relationship between SRSF11-regulated splicing and colon cancer metastasis. This suggests that the PAK5/SRSF11/HSPA12A pathway may be a potential therapeutic target for colon cancer",
+            "type": "summary",
+            "id": "6410ed73201352f04a00002f",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 49,
+                    "text": "Alternative splicing of HSPA12A pre-RNA by SRSF11",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36394206",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 1600,
+                    "offsetInEndSection": 1923,
+                    "text": "SRSF11 exerts pro-metastatic effects in CRC by inhibiting the AS of HSPA12A pre-RNA. Our findings point to SRSF11-regulated HSPA12A splicing as a novel relationship between SRSF11-regulated splicing and CRC metastasis and suggest a PAK5/SRSF11/HSPA12A axis as a potential therapeutic target and prognostic biomarker in CRC.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36394206",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What disease can be treated with Lenacapavir?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36190128",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36202818",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36272024",
+                "http://www.ncbi.nlm.nih.gov/pubmed/34871187"
+            ],
+            "ideal_answer": "Lenacapavir is a drug used to treat HIV infection.",
+            "exact_answer": [
+                "HIV infection"
+            ],
+            "type": "factoid",
+            "id": "63f03fc8f36125a426000021",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 91,
+                    "text": "Structural and Mechanistic Bases of Viral Resistance to HIV-1 Capsid Inhibitor Lenacapavir.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36190128",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 79,
+                    "text": "Lenacapavir (LEN) is a long-acting, highly potent HIV-1 capsid (CA) inhibitor. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36190128",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 803,
+                    "offsetInEndSection": 1012,
+                    "text": "The investigational drug lenacapavir accesses unoccupied hydrophobic pockets in the complex to potently impair HIV-1 inside the nucleus without displacing the tightly bound cellular cofactor from virus cores. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36202818",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 145,
+                    "text": "Lenacapavir (Sunlenca\u00ae) is a long-acting capsid inhibitor of human immunodeficiency virus type\u00a01 (HIV-1) being developed by Gilead Sciences Inc. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36272024",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 301,
+                    "offsetInEndSection": 696,
+                    "text": "In August 2022, lenacapavir received its first approval in the EU for use in combination with other antiretroviral(s) in adults with multi-drug resistant HIV infection, for whom it is otherwise not possible to construct a suppressive anti-viral regimen. This article summarizes the milestones in the development of lenacapavir leading to this first approval for the treatment of HIV-1 infection.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36272024",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 53,
+                    "text": "Lenacapavir: a first-in-class HIV-1 capsid inhibitor.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34871187",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 496,
+                    "text": "PURPOSE OF REVIEW: This review summarizes available data for lenacapavir, an investigational first-in-class agent that disrupts functioning of HIV capsid protein across multiple steps in the viral life cycle.RECENT FINDINGS: Lenacapavir demonstrated picomolar potency in vitro with no cross resistance to existing antiretroviral classes and potent antiviral activity in persons with HIV-1. In persons with HIV-1, there was no preexisting resistance to lenacapavir regardless of treatment history.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34871187",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 600,
+                    "offsetInEndSection": 1015,
+                    "text": "In heavily treatment-experienced persons with multidrug-resistant HIV-1 and in treatment-naive persons with HIV-1, lenacapavir in combination with other antiretroviral agents led to high rates of virologic suppression and was well tolerated.SUMMARY: Ongoing studies are evaluating long-acting dosing of lenacapavir for treating HIV-1 in combination with other antiretrovirals and preventing HIV-1 as a single agent.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34871187",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is Iron deficiency anemia a common complication of chronic kidney disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36165109",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36166211",
+                "http://www.ncbi.nlm.nih.gov/pubmed/28153964",
+                "http://www.ncbi.nlm.nih.gov/pubmed/29533917",
+                "http://www.ncbi.nlm.nih.gov/pubmed/33516607"
+            ],
+            "ideal_answer": "Yes, iron deficiency anemia is a common complication of chronic kidney disease due to reduced erythropoietin production and decreased red blood cell lifespan, leading to decreased hemoglobin levels.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "641365f6201352f04a00003a",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 155,
+                    "text": "Intravenous iron therapy is increasingly being used worldwide to treat anemia in chronic kidney disease and more recently iron deficiency in heart failure.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36165109",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 49,
+                    "offsetInEndSection": 145,
+                    "text": " iron deficiency in patients with chronic kidney disease (CKD), either with or without anaemia. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36166211",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 140,
+                    "text": "Iron deficiency, both functional and absolute, is common in patients with chronic kidney disease (CKD), especially those requiring dialysis.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/28153964",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 135,
+                    "text": "Treatment with iron preparations remains one of the main directions in the treatment of anemia in patients with chronic kidney disease.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29533917",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 143,
+                    "text": "This work presents an update on the management of iron deficiency in patients with chronic renal failure (CRF), either with or without anaemia.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33516607",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1,
+                    "offsetInEndSection": 101,
+                    "text": "ron replacement therapy in the management of anaemia in non-dialysis chronic renal failure patients:",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33516607",
+                    "endSection": "title"
+                }
+            ]
+        },
+        {
+            "body": "Can modulation of KCNQ1 splicing prevent arrhythmias?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/23608591"
+            ],
+            "ideal_answer": "Yes, modulation of KCNQ1 splicing can help prevent arrhythmias by regulating IKs and APs with transmural differences and reducing arrhythmogenicity.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "6410ef9b201352f04a000031",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1547,
+                    "offsetInEndSection": 1758,
+                    "text": "Amiloride regulates IKs and APs with transmural differences and reduces arrhythmogenicity through the modulation of KCNQ1 splicing. We suggested that the modulation of KCNQ1 splicing may help prevent arrhythmia.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23608591",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is Catamenial pneumothorax?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35924495",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35268286",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35774053",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35286587",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36179536",
+                "http://www.ncbi.nlm.nih.gov/pubmed/34375738",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35037874"
+            ],
+            "ideal_answer": "Catamenial pneumothorax is a medical condition in which air leaks into the space between the lung and chest wall, typically occurring during a woman's menstrual cycle. It is often caused by endometriosis, which is the presence of endometrial tissue outside the uterus",
+            "type": "summary",
+            "id": "63f57f7f33942b094c000006",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 367,
+                    "offsetInEndSection": 485,
+                    "text": "Catamenial pneumothorax is one of the most frequent manifestation in terms of a thoracic endometriosis syndrome (TES).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35924495",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 108,
+                    "text": "Catamenial Pneumothorax as the First Expression of Thoracic Endometriosis Syndrome and Pelvic Endometriosis.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35268286",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 234,
+                    "text": "OBJECTIVE: The menstrual-related catamenial pneumothorax (CP) can be the first expression of thoracic endometriosis syndrome (TES), which is the presence of endometriotic lesions in the lungs and pleura, and pelvic endometriosis (PE).",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35268286",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 63,
+                    "text": "Catamenial pneumothorax: a rare manifestation of endometriosis.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35774053",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 176,
+                    "offsetInEndSection": 297,
+                    "text": "Thoracic endometriosis is a rare extrapelvic location of endometriosis and the leading cause of catamenial pneumothorax. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35774053",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 164,
+                    "text": "BACKGROUND: Catamenial pneumothorax (CP) is defined as a recurrent, spontaneous pneumothorax occurring within a day before or 72\u00a0h after the onset of menstruation. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35286587",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 142,
+                    "text": "OBJECTIVES: Catamenial pneumothorax CP is a rare form of spontaneous pneumothorax in females forming part of thoracic endometriosis syndrome. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36179536",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 225,
+                    "text": "OBJECTIVE: This review aimed to categorize thoracic endometriosis syndrome (TES) according to whether the presenting symptoms were catamenial and to evaluate whether such a categorization enables a better management strategy.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34375738",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 267,
+                    "text": "Thoracic endometriosis syndrome (TES) is a rare disorder characterized by the presence of ectopic endometrial tissue in the chest cavity. The typical clinical manifestation is a spontaneous pneumothorax, which usually presents with chest pain, dyspnea, and/or cough. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35037874",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Please summarize haptenization.",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/27539547",
+                "http://www.ncbi.nlm.nih.gov/pubmed/23928507",
+                "http://www.ncbi.nlm.nih.gov/pubmed/22613852"
+            ],
+            "ideal_answer": "Haptenization involves the binding of a small molecule (hapten) to a larger carrier molecule, resulting in the formation of a new compound that can trigger an immune response. This process can lead to the production of antibodies that recognize the hapten and the carrier molecule, causing a hypersensitivity reaction upon re-exposure to the hapten",
+            "type": "summary",
+            "id": "64144419201352f04a000045",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 544,
+                    "text": "In contrast to the traditional mechanism of drug action that relies on the reversible, noncovalent interaction of a ligand with its biological target, a targeted covalent inhibitor (TCI) is designed such that the initial, reversible association is followed by the formation of a covalent bond between an electrophile on the ligand and a nucleophilic center in the protein. Although this approach offers a variety of potential benefits (high potency and extended duration of action), concerns over the possible toxicological consequences of prot",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/27539547",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 487,
+                    "offsetInEndSection": 676,
+                    "text": "Her particular hepatic metabolism further increased the drugs' concentration, favoring the haptenization of liver proteins, eventually leading to the development of an autoimmune hepatitis.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23928507",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 976,
+                    "offsetInEndSection": 1221,
+                    "text": "Drug presentation via antigen-presenting cells to T cells can either involve the classical pathway of haptenization of endogenous proteins or be directly mediated via noncovalent binding to immune receptors (MHC molecules or T cell receptors), t",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/22613852",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is trichotillomania encountered with equali frequency in males and females?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35118122"
+            ],
+            "ideal_answer": "No, trichotillomania is more commonly encountered in females than males.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "6414c124690f196b51000002",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 150,
+                    "offsetInEndSection": 337,
+                    "text": "The disease affects mainly female patients, who often deny the habit, and it usually presents with a bizarre pattern nonscarring patchy alopecia with short hair and a negative pull test. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35118122",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the triad of the Eagle-Barrett Syndrome?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35429431",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35526214",
+                "http://www.ncbi.nlm.nih.gov/pubmed/30560020",
+                "http://www.ncbi.nlm.nih.gov/pubmed/29174092"
+            ],
+            "ideal_answer": "The triad of Eagle-Barrett Syndrome includes absent or defective abdominal wall muscles, urinary tract abnormalities, and bilateral cryptorchidism.",
+            "exact_answer": [
+                [
+                    "Absent or defective abdominal wall muscles"
+                ],
+                [
+                    "Urinary tract abnormalities"
+                ],
+                [
+                    "Bilateral cryptorchidism"
+                ]
+            ],
+            "type": "list",
+            "id": "64041701201352f04a000017",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 192,
+                    "text": "Eagle-Barrett Syndrome (EBS) is a rare congenital condition characterized by the triad of absent or defective abdominal wall muscles, urinary tract abnormalities, and bilateral cryptorchidism.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35429431",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 236,
+                    "text": "BACKGROUND: Prune belly syndrome (PBS), also known as Eagle-Barrett syndrome (EGBRS), is a rare congenital disease characterized by deficiency or absence of abdominal wall muscles, urological abnormalities, and bilateral cryptorchidism.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35526214",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 287,
+                    "text": "Prune Belly syndrome (PBS) or Eagle-Barrett syndrome is an anatomo-radiological syndrome consisting of a complex and rare malformation characterized by the following triad of symptoms: deficiency of the abdominal muscles, malformations of the urinary tract, and bilateral cryptorchidism.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/30560020",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 223,
+                    "text": "Prune belly syndrome (PBS), also known as Eagle-Barrett syndrome, is a rare congenital disorder characterized by absence or hypoplasia of the abdominal wall musculature, urinary tract anomalies, and cryptorchidism in males.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29174092",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What cells proliferate in Mantle Cell Lymphoma",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/32774275",
+                "http://www.ncbi.nlm.nih.gov/pubmed/28203581",
+                "http://www.ncbi.nlm.nih.gov/pubmed/26604506"
+            ],
+            "ideal_answer": "Mantle cell lymphoma is a subtype of B-cell non-Hodgkin's lymphoma, where B-cells proliferate uncontrollably.",
+            "exact_answer": [
+                "B-cells"
+            ],
+            "type": "factoid",
+            "id": "640c85e9201352f04a000026",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 129,
+                    "text": "Mantle cell lymphoma (MCL) is a relatively rare B-cell non-Hodgkin lymphoma, typically presenting with extensive lymphadenopathy,",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/32774275",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 207,
+                    "offsetInEndSection": 483,
+                    "text": "Activity has been demonstrated in many subtypes of B-cell lymphoma, including diffuse large cell lymphoma, follicular lymphoma (FL), mantle cell lymphoma (MCL), chronic lymphocytic leukemia (CLL), lymphocyte-predominant Hodgkin lymphoma, and Waldenstr\u00f6m macroglobulinemia (WM)",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/28203581",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 102,
+                    "text": "Mantle cell lymphoma (MCL) is a subtype of B-cell non-Hodgkin's lymphoma seen predominantly in males. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/26604506",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the estimated cost reduction when using telegenetics?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/26785833"
+            ],
+            "ideal_answer": "Online counseling may result in a cost reduction of 10-12%.",
+            "exact_answer": [
+                "10-12%"
+            ],
+            "type": "factoid",
+            "id": "6415bb3c690f196b5100000e",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1548,
+                    "offsetInEndSection": 1644,
+                    "text": "We estimated reduced time and costs by online counseling with about 8% and 10-12%, respectively.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/26785833",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the target of BI 1015550?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35569036",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36299369",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35517783"
+            ],
+            "ideal_answer": "BI 1015550 is a preferential inhibitor of the PDE4B subtype.",
+            "exact_answer": [
+                "PDE4B"
+            ],
+            "type": "factoid",
+            "id": "63f03ae6f36125a42600001d",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 181,
+                    "offsetInEndSection": 402,
+                    "text": "METHODS: In this phase 2, double-blind, placebo-controlled trial, we investigated the efficacy and safety of BI 1015550, an oral preferential inhibitor of the PDE4B subtype, in patients with idiopathic pulmonary fibrosis.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35569036",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 143,
+                    "text": "Phase I studies of BI 1015550, a preferential phosphodiesterase 4B inhibitor, in healthy males and patients with idiopathic pulmonary fibrosis.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36299369",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 101,
+                    "text": "Introduction: BI 1015550 is a phosphodiesterase 4 (PDE4) inhibitor that has antifibrotic properties. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36299369",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 118,
+                    "text": "BI 1015550 is a PDE4B Inhibitor and a Clinical Drug Candidate for the Oral Treatment of Idiopathic Pulmonary Fibrosis.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35517783",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 351,
+                    "offsetInEndSection": 441,
+                    "text": "BI 1015550 is a novel PDE4 inhibitor showing a preferential enzymatic inhibition of PDE4B.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35517783",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 2098,
+                    "offsetInEndSection": 2401,
+                    "text": "In summary, the unique preferential inhibition of PDE4B by BI 1015550 and its anticipated improved tolerability in humans, plus its anti-inflammatory and antifibrotic potential, suggest BI 1015550 to be a promising oral clinical candidate for the treatment of IPF and other fibro-proliferative diseases.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35517783",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Please summarize the difference between REMS and RMPs",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/23244814"
+            ],
+            "ideal_answer": "REMS and RMPs are both designed to identify, monitor, and minimize risk to patient safety. REMS requirements include medication guides, communication plans, elements to ensure safe use, implementation systems, and specified assessment intervals while RMP requirements are increased pharmacovigilance and risk minimization activities. Both provide positive guidance for patient safety, but neither agency provides specific guidance on how risk should be related to benefit either qualitatively or quantitatively",
+            "type": "summary",
+            "id": "64089be7201352f04a000022",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 1496,
+                    "offsetInEndSection": 1750,
+                    "text": "Both REMS and RMPs provide positive guidance for identification, monitoring, and minimization of risk to patient safety. Currently, neither agency provides specific guidance on how risk should be related to benefit either qualitatively or quantitatively.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23244814",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 393,
+                    "offsetInEndSection": 630,
+                    "text": "REMS requirements include medication guides, communication plans, elements to ensure safe use, implementation systems, and specified assessment intervals. RMP requirements are increased pharmacovigilance and risk minimization activities.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23244814",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 859,
+                    "offsetInEndSection": 1484,
+                    "text": "REMS and RMPs are similar in objectives, with comparable toolkits. Both allow flexibility in product-specific actions, recognizing adverse effects of potential concern. Of the 29 drugs reviewed, REMS requirements not included in RMPs were patient medication guides (100% of the drugs), provider communication plans (38%), and routine monitoring of REMS (66%). RMP requirements not included in REMS were specific adverse event reporting (45% of the drugs), prospective registry studies (34%), prospective epidemiology studies (24%), additional trial data (28%), and Summary of Product Characteristics contraindications (76%).C",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23244814",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Does microexon alternative splicing of small GTPase regulators have implication in central nervous system diseases?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34155820"
+            ],
+            "ideal_answer": "Yes, microexon alternative splicing of small GTPase regulators has been implicated in central nervous system diseases due to its role in regulating the Rho GTPase pathway, which is critical for neuronal development, synaptic plasticity, and neurodegenerative disorders.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "63f9cd2f33942b094c000011",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 106,
+                    "text": "Microexon alternative splicing of small GTPase regulators: Implication in central nervous system diseases.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34155820",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 1278,
+                    "offsetInEndSection": 1447,
+                    "text": "We further discuss the emerging evidence for dysregulation of the Rho GTPase pathway in CNS diseases and the consequences contributed by the mis-splicing of microexons. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34155820",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Beremagene Geperpavec is tested for which disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35347281"
+            ],
+            "ideal_answer": "Beremagene Geperpavec is tested for the treatment of recessive dystrophic epidermolysis bullosa (RDEB)",
+            "exact_answer": [
+                "recessive dystrophic epidermolysis bullosa"
+            ],
+            "type": "factoid",
+            "id": "63eeeaaaf36125a426000004",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 393,
+                    "text": "Recessive dystrophic epidermolysis bullosa (RDEB) is a lifelong genodermatosis associated with blistering, wounding, and scarring caused by mutations in COL7A1, the gene encoding the anchoring fibril component, collagen VII (C7). Here, we evaluated beremagene geperpavec (B-VEC), an engineered, non-replicating COL7A1 containing herpes simplex virus type 1 (HSV-1) vector, to treat RDEB skin. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35347281",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1370,
+                    "offsetInEndSection": 1528,
+                    "text": "These studies show that B-VEC is an easily administered, safely tolerated, topical molecular corrective therapy promoting wound healing in patients with RDEB.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35347281",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Hairpatches is a single gene mutation associated with what disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/1836514",
+                "http://www.ncbi.nlm.nih.gov/pubmed/23301070"
+            ],
+            "ideal_answer": "Hairpatches, a single gene mutation characterized by progressive renal disease and alopecia in the mouse. A potential model for a newly described heritable human disorder.",
+            "exact_answer": [
+                "renal failure",
+                "alopecia"
+            ],
+            "type": "factoid",
+            "id": "64138ce8201352f04a000042",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 212,
+                    "text": "\"Hairpatches\" (Hpt) is a naturally occurring, autosomal semi-dominant mouse mutation. Hpt/Hpt homozygotes die in utero, while Hpt/+ heterozygotes exhibit progressive renal failure accompanied by patchy alopecia. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/23301070",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 171,
+                    "text": "Hairpatches, a single gene mutation characterized by progressive renal disease and alopecia in the mouse. A potential model for a newly described heritable human disorder.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/1836514",
+                    "endSection": "title"
+                }
+            ]
+        },
+        {
+            "body": "What is the alternative microexon splicing by RBFOX2 and PTBP1 associated with?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/34346508"
+            ],
+            "ideal_answer": "RNA interference-mediated knockdown experiments identified two splicing factors, RBFOX2 and PTBP1, as regulators of microexon splicing in CRC cells. RBFOX2 and PTBP1 were found to directly bind to microexon-containing pre-mRNAs and to control their splicing. Our data thus suggest that altered expression of RBFOX2 and PTBP1 might influence CRC metastasis through the regulation of microexon splicing.",
+            "exact_answer": [
+                "metastasis in colorectal cancer"
+            ],
+            "type": "factoid",
+            "id": "63f9cd0b33942b094c000010",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 107,
+                    "text": "Alternative splicing of HSPA12A pre-RNA by SRSF11 contributes to metastasis potential of colorectal cancer.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36394206",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 102,
+                    "text": "Alternative microexon splicing by RBFOX2 and PTBP1 is associated with metastasis in colorectal cancer.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34346508",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 638,
+                    "offsetInEndSection": 1073,
+                    "text": "RNA interference-mediated knockdown experiments identified two splicing factors, RBFOX2 and PTBP1, as regulators of microexon splicing in CRC cells. RBFOX2 and PTBP1 were found to directly bind to microexon-containing pre-mRNAs and to control their splicing in such cells. Differential microexon splicing was shown to be due, at least in part, to altered expression of RBFOX2 and PTBP1 in CRC tissue compared to matched normal tissue. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34346508",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1178,
+                    "offsetInEndSection": 1320,
+                    "text": "Our data thus suggest that altered expression of RBFOX2 and PTBP1 might influence CRC metastasis through the regulation of microexon splicing.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34346508",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Which gene is implicated in Canavan disease?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/36267868",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35636725",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35637731",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35929936"
+            ],
+            "ideal_answer": "Canavan disease is caused by mutations in the ASPA gene encoding aspartoacylase.",
+            "exact_answer": [
+                "ASPA gene"
+            ],
+            "type": "factoid",
+            "id": "63f56f7533942b094c000002",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 102,
+                    "text": "Cribriform Appearance of White Matter in Canavan Disease Associated with Novel Mutations of ASPA Gene.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36267868",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 652,
+                    "offsetInEndSection": 837,
+                    "text": "Genetic analysis revealed novel mutations in the aspartoacylase or ASPA gene that possibly accounts for the severe form of Canavan disease, which probably explains the imaging findings.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36267868",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 121,
+                    "text": "Canavan disease (CD) is an inherited leukodystrophy resulting from mutations in the gene encoding aspartoacylase (ASPA). ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35636725",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 290,
+                    "text": "Canavan disease (CD) is a devastating neurological disease that lacks effective therapy. Because CD is caused by mutations of the aspartoacylase (ASPA) gene, we introduced the wild-type (WT) ASPA gene into patient iPSCs through lentiviral transduction or CRISPR/Cas9-mediated gene editing. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35637731",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1284,
+                    "offsetInEndSection": 1453,
+                    "text": "The compound heterozygous variants of the ASPA gene probably underlay the Canavan disease in this patient, and the result has enabled prenatal diagnosis for this family.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35929936",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Is prosopagnosia also known as lack of auditory recognition?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/29213721",
+                "http://www.ncbi.nlm.nih.gov/pubmed/29213598"
+            ],
+            "ideal_answer": "No, prosopagnosia is not related to auditory recognition. It is a visual agnosia that affects the ability to recognize faces.",
+            "exact_answer": "no",
+            "type": "yesno",
+            "id": "6411b4a8201352f04a000035",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 128,
+                    "text": "Prosopagnosia is a visual agnosia characterized by an inability to recognize previously known human faces and to learn new faces",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29213721",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 212,
+                    "text": "Prosopagnosia is a type of visual agnosia with inability to identify faces, usually secondary to brain lesion in associative cortex areas, but there is also a congenital form known as developmental prosopagnosia.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/29213598",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is telegenetics?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/33817891"
+            ],
+            "ideal_answer": "Telegenetics is the use of technology, such as video conferencing, to provide genetic services remotely to individuals who may have difficulties attending in-person appointments",
+            "type": "summary",
+            "id": "6415babe690f196b5100000d",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 287,
+                    "text": "Telegenetics involves the use of technology (generally video conferencing) to remotely provide genetic services. A telegenetics platform is critical for those with limitations or vulnerabilities compromising their ability to attend clinic in-person, including individuals in rural areas.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33817891",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the mechanism of action of Mitapivat?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35576529",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35964609",
+                "http://www.ncbi.nlm.nih.gov/pubmed/35988546"
+            ],
+            "ideal_answer": "Mitapivat activates pyruvate kinase and glycolysis in red blood cells, leading to increased ATP levels and decreased 2,3-DPG concentration",
+            "type": "summary",
+            "id": "63f04546f36125a426000024",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 107,
+                    "text": "A phase 1 dose escalation study of the pyruvate kinase activator mitapivat (AG-348) in sickle cell disease.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35576529",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 104,
+                    "offsetInEndSection": 333,
+                    "text": "In activating red blood cell pyruvate kinase and glycolysis, mitapivat (AG-348) increases adenosine triphosphate (ATP) levels and decreases the 2,3-diphosphoglycerate (2,3-DPG) concentration, an upstream precursor in glycolysis. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35576529",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 186,
+                    "text": "Safety and efficacy of mitapivat, an oral pyruvate kinase activator, in adults with non-transfusion dependent \u03b1-thalassaemia or \u03b2-thalassaemia: an open-label, multicentre, phase 2 study.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35964609",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 259,
+                    "offsetInEndSection": 478,
+                    "text": "We aimed to investigate the safety and efficacy of mitapivat (Agios Pharmaceuticals, Cambridge, MA, USA), a pyruvate kinase activator, in adults with non-transfusion-dependent (NTD) \u03b1-thalassaemia or NTD \u03b2-thalassaemia.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35964609",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 249,
+                    "text": "BACKGROUND: Mitapivat, an oral activator of pyruvate kinase (PK) in red blood cells (RBCs), has shown significant improvements in haemoglobin and haemolysis among patients with pyruvate kinase deficiency who were not receiving regular transfusions. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35988546",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "Do cells undergoing necroptosis show disruption of their cell membranes?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35365636"
+            ],
+            "ideal_answer": "Yes, cells undergoing necroptosis show disruption of their cell membranes due to the activation of the MLKL pseudokinase by upstream kinases, leading to membrane rupture and cell death.",
+            "exact_answer": "yes",
+            "type": "yesno",
+            "id": "641357bc201352f04a000039",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 314,
+                    "text": "Necroptosis is a form of caspase-independent programmed cell death that arises from disruption of cell membranes by the mixed lineage kinase domain-like (MLKL) pseudokinase after its activation by the upstream kinases, receptor interacting protein kinase (RIPK)-1 and RIPK3, within a complex known as the necrosome",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35365636",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What is the definition of dermatillomania?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/33654612",
+                "http://www.ncbi.nlm.nih.gov/pubmed/21323095"
+            ],
+            "ideal_answer": "Dermatillomania is a neuropsychiatric disorder characterized by repetitive, ritualistic, and impulsive skin picking without an underlying dermatologic condition. It is a chronic and treatment-resistant disorder that negatively affects an individual's health and quality of life",
+            "type": "summary",
+            "id": "6414c3f3690f196b51000005",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 241,
+                    "text": "Dermatillomania or skin picking disorder (SPD) is a chronic, recurrent, and treatment resistant neuropsychiatric disorder with an underestimated prevalence that has a concerning negative impact on an individual's health and quality of life. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/33808008",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 160,
+                    "text": "Dermatillomania is a pathologic grooming disorder characterized by repetitive, ritualistic, impulsive skin picking without an underlying dermatologic condition.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/21323095",
+                    "endSection": "abstract"
+                }
+            ]
+        },
+        {
+            "body": "What disease can be treated with Glofitamab?",
+            "documents": [
+                "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+                "http://www.ncbi.nlm.nih.gov/pubmed/36198538",
+                "http://www.ncbi.nlm.nih.gov/pubmed/34941996"
+            ],
+            "ideal_answer": "Glofitamab is used to treat patients with relapsed or refractory diffuse large B-cell lymphoma (DLBCL).",
+            "exact_answer": [
+                "DLBCL"
+            ],
+            "type": "factoid",
+            "id": "63eeeb70f36125a426000005",
+            "snippets": [
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 78,
+                    "text": "Glofitamab Treatment in Relapsed or Refractory DLBCL after CAR T-Cell Therapy.",
+                    "beginSection": "title",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+                    "endSection": "title"
+                },
+                {
+                    "offsetInBeginSection": 361,
+                    "offsetInEndSection": 624,
+                    "text": "In this study, we evaluated the safety and efficacy of a monotherapy with the bispecific CD20xCD3 antibody glofitamab in patients who progressed after CAR T treatment. We report nine consecutive patients with progressive DLBCL after preceding CAR T-cell therapy. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 1106,
+                    "offsetInEndSection": 1284,
+                    "text": "Our data suggest that glofitamab treatment is well tolerated and effective in patients with DLBCL relapsing after CAR T-cell therapy and can enhance residual CAR T-cell activity.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/35626120",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 674,
+                    "offsetInEndSection": 976,
+                    "text": "Bispecific antibodies such as epcoritamab, mosunetuzumab, and glofitamab, anti-CD19 antibody drug tafasitamab combined with lenalidomide, CD19 antibody drug conjugate loncastuximab tesirine, oral selective inhibitor of nuclear export selinexor, and several new agents have been investigated for DLBCL. ",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/36198538",
+                    "endSection": "abstract"
+                },
+                {
+                    "offsetInBeginSection": 0,
+                    "offsetInEndSection": 200,
+                    "text": "Glofitamab, a novel CD20xCD3, T-cell-engaging bispecific antibody, exhibited single-agent activity in Study NP30179, a first-in-human, phase 1 trial in relapsed/refractory B-cell non-Hodgkin lymphoma.",
+                    "beginSection": "abstract",
+                    "document": "http://www.ncbi.nlm.nih.gov/pubmed/34941996",
+                    "endSection": "abstract"
+                }
+            ]
+        }
+    ]
+}

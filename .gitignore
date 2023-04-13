@@ -2,5 +2,7 @@ bioasq10b/
 .lh/
 .vscode/
 *.DS_Store
-gpt_result/
+gpt_result/*/*.json
+!gpt_result/*/submit.json
+!gpt_result/*/*save-model*.json
 error.txt
