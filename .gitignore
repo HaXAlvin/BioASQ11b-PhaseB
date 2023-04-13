@@ -1,0 +1,6 @@
+bioasq10b/
+.lh/
+.vscode/
+*.DS_Store
+gpt_result/
+error.txt
