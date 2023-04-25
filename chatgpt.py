@@ -13,28 +13,32 @@ logging.set_verbosity_error()
 openai.api_key = "YOUR_API_KEY"
 MODEL = "gpt-3.5-turbo"
 # MODEL = "gpt-4"
-BATCH = 0
-SUBMIT = 0
+BATCH = 2
+SUBMIT = 1
 MAX_SNIPPET_LEN = 250
-dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-training11b/training11b.json"
-# dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-task11bPhaseB-testset1.txt"
+# dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-training11b/training11b.json"
+dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-task11bPhaseB-testset2.txt"
 
 
 SCHEMA = {
     "yesno": Schema({
         "exact_answer": And(Use(str), Use(str.lower), lambda s: s in ('yes', 'no')),
-        "ideal_answer": And(Use(str), lambda s: s.strip() != "")
+        "ideal_answer": And(Use(str), lambda s: s.strip() != ""),
+        "id": str
     }),
     "list": Schema({
         "exact_answer": And(list, lambda l: 100 >= len(l) > 0, lambda l: all(100 >= len(i) > 0 for i in l)),
-        "ideal_answer": And(Use(str), lambda s: s.strip() != "")
+        "ideal_answer": And(Use(str), lambda s: s.strip() != ""),
+        "id": str
     }),
     "summary": Schema({
         "ideal_answer": And(Use(str), lambda s: s.strip() != ""),
+        "id": str
     }),
     "factoid": Schema({
         "exact_answer": And(list, Use(lambda x: x[:5]), lambda l: 5 >= len(l) > 0),
-        "ideal_answer": And(Use(str), lambda s: s.strip() != "")
+        "ideal_answer": And(Use(str), lambda s: s.strip() != ""),
+        "id": str
     })
 }
 
@@ -69,16 +73,18 @@ def request_gpt(specific_q=None):
         for i, q in enumerate(loop):
             # print(q['id'])
             path = f"gpt_result/11b_batch_{BATCH}_submit_{SUBMIT}/{q['id']}.json"
-            if os.path.exists(path):
-                continue
-            messages = [make_message("assistant", sni["text"][:MAX_SNIPPET_LEN]) for sni in q["snippets"]]
-            messages = messages[:5] + [make_message("user", PROMPT[q["type"]]), make_message("user", q["body"])]
-            # print(messages)
-            completion = completions_with_backoff(model=MODEL, messages=messages, temperature=0.7)
-            resp = completion.choices[0].message.content.strip(".。\"'")
-            resp_text = json.loads(resp) if resp[0] == "{" else {"ideal_answer": resp}
-            SCHEMA[q["type"]].validate(resp_text)
+            if not os.path.exists(path):
+                messages = [make_message("assistant", sni["text"][:MAX_SNIPPET_LEN]) for sni in q["snippets"]]
+                messages = messages[:5] + [make_message("user", PROMPT[q["type"]]), make_message("user", q["body"])]
+                # print(messages)
+                completion = completions_with_backoff(model=MODEL, messages=messages, temperature=0.7)
+                resp = completion.choices[0].message.content.strip(".。\"'")
+                resp_text = json.loads(resp) if resp[0] == "{" else {"ideal_answer": resp}
+            else:
+                with open(path, "r", encoding="utf-8") as f:
+                    resp_text = json.load(f)
             result = {"id": q["id"], **resp_text}
+            result = SCHEMA[q["type"]].validate(result)
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=4)
     except Exception as e:
@@ -89,59 +95,59 @@ def request_gpt(specific_q=None):
             f.write(f"{str(e)}\n\nProcess:{i}")
 
 
-def extract_answer(question, have_answer=False):
-    temp_answers = []
-    temp_predicts = []
+# def extract_answer(question, have_answer=False):
+#     temp_answers = []
+#     temp_predicts = []
 
-    with open(f"gpt_result/11b_batch_{BATCH}_submit_{SUBMIT}/{question['id']}.json", "r", encoding="utf-8") as f:
-        result = json.load(f)
-    if have_answer:
-        if question["type"] == "yesno":
-            temp_answers.append(question["exact_answer"])
-            temp_predicts.append(result["exact_answer"])
-            temp_answers += question["ideal_answer"]
-            temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
-        elif question["type"] == "list":
-            temp_answers += [" ".join(a) for a in question["exact_answer"]]
-            temp_predicts += [" ".join(sorted(result["exact_answer"]))] * len(question["exact_answer"])
-            temp_answers += question["ideal_answer"]
-            temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
-        elif question["type"] == "factoid":
-            temp_answers += question["exact_answer"]
-            temp_predicts += [result["exact_answer"][0]] * len(question["exact_answer"])
-            temp_answers += question["ideal_answer"]
-            temp_predicts += [result["ideal_answer"][0]] * len(question["ideal_answer"])
-        elif question["type"] == "summary":
-            temp_answers += question["ideal_answer"]
-            temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
-    else:
-        if question["type"] == "yesno":
-            temp_predicts.append(result["exact_answer"])
-            temp_predicts += [result["ideal_answer"]]
-        elif question["type"] == "list":
-            temp_predicts += sorted(result["exact_answer"])
-            temp_predicts += [result["ideal_answer"]]
-        elif question["type"] == "factoid":
-            temp_predicts += result["exact_answer"]
-            temp_predicts += result["ideal_answer"]
-        elif question["type"] == "summary":
-            temp_predicts.append(result["ideal_answer"])
-        temp_answers = [i for i in temp_predicts]
-    return temp_answers, temp_predicts
+#     with open(f"gpt_result/11b_batch_{BATCH}_submit_{SUBMIT}/{question['id']}.json", "r", encoding="utf-8") as f:
+#         result = json.load(f)
+#     if have_answer:
+#         if question["type"] == "yesno":
+#             temp_answers.append(question["exact_answer"])
+#             temp_predicts.append(result["exact_answer"])
+#             temp_answers += question["ideal_answer"]
+#             temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
+#         elif question["type"] == "list":
+#             temp_answers += [" ".join(a) for a in question["exact_answer"]]
+#             temp_predicts += [" ".join(sorted(result["exact_answer"]))] * len(question["exact_answer"])
+#             temp_answers += question["ideal_answer"]
+#             temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
+#         elif question["type"] == "factoid":
+#             temp_answers += question["exact_answer"]
+#             temp_predicts += [result["exact_answer"][0]] * len(question["exact_answer"])
+#             temp_answers += question["ideal_answer"]
+#             temp_predicts += [result["ideal_answer"][0]] * len(question["ideal_answer"])
+#         elif question["type"] == "summary":
+#             temp_answers += question["ideal_answer"]
+#             temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
+#     else:
+#         if question["type"] == "yesno":
+#             temp_predicts.append(result["exact_answer"])
+#             temp_predicts += [result["ideal_answer"]]
+#         elif question["type"] == "list":
+#             temp_predicts += sorted(result["exact_answer"])
+#             temp_predicts += [result["ideal_answer"]]
+#         elif question["type"] == "factoid":
+#             temp_predicts += result["exact_answer"]
+#             temp_predicts += result["ideal_answer"]
+#         elif question["type"] == "summary":
+#             temp_predicts.append(result["ideal_answer"])
+#         temp_answers = [i for i in temp_predicts]
+#     return temp_answers, temp_predicts
 
 
-def remove_empty_str(question, list_key):
-    if isinstance(question.get(list_key), list):
-        question[list_key] = [t for t in question[list_key] if t]
-    return question
+# def remove_empty_str(question, list_key):
+#     if isinstance(question.get(list_key), list):
+#         question[list_key] = [t for t in question[list_key] if t]
+#     return question
 
 
 def clean_and_check_result():
     all_answers = []
     all_predicts = []
     for q in tqdm(QUESTIONS, mininterval=2):
-        q = remove_empty_str(q, "exact_answer")
-        q = remove_empty_str(q, "ideal_answer")
+        # q = remove_empty_str(q, "exact_answer")
+        # q = remove_empty_str(q, "ideal_answer")
         for _ in range(10):  # max retry 10 times
             try:
                 temp_answers, temp_predicts = extract_answer(q)
@@ -181,23 +187,6 @@ def merge_result_and_question():
     for q in QUESTIONS:
         with open(f"gpt_result/11b_batch_{BATCH}_submit_{SUBMIT}/{q['id']}.json", "r", encoding="utf-8") as f:
             result = json.load(f)
-        # if q["type"] == "list":
-        #     if len(result["exact_answer"]) == 1:
-        #         result["exact_answer"][0] = result["exact_answer"][0].strip(".")
-        #         if "and" in result["exact_answer"][0]:
-        #             result["exact_answer"] = result["exact_answer"][0].split("and")
-        #         if "," in result["exact_answer"][0]:
-        #             result["exact_answer"] = result["exact_answer"][0].split(",")
-        #     temp = []
-        #     for i in result["exact_answer"]:
-        #         if not i.strip():
-        #             continue
-        #         temp.append([i.strip()])
-        #     result["exact_answer"] = temp
-        # if q["type"] == "factoid":
-        #     result["ideal_answer"] = result["ideal_answer"][0]
-        # if q["type"] == "yesno":
-        #     result["exact_answer"] = result["exact_answer"].lower()
         merge_q = {**q, **result}
         submit_file["questions"].append(merge_q)
     submit_file_path = f"gpt_result/11b_batch_{BATCH}_submit_{SUBMIT}/submit.json"
@@ -208,8 +197,10 @@ def merge_result_and_question():
 
 
 # calc_score()
-# merge_result_and_question()
-request_gpt()
+# request_gpt()
+merge_result_and_question()
+
 # 放在同個dict
 # exact_answer ideal_answer分開
 # opanai api embedding 算cos相似度
+
