@@ -96,10 +96,21 @@ def completions_with_backoff(**kwargs):
         return process.get(timeout=60)
 
 
+def summary_snippet(snippet):
+    messages = [make_message("user", f"Conclusion and summarize this context in less than {MAX_SNIPPET_LEN} letters:\"\"\"{snippet}\"\"\"")]
+    completion = completions_with_backoff(model=MODEL, messages=messages, temperature=TEMPERATURE)
+    resp = completion.choices[0].message.content
+    assert isinstance(resp, str) and resp.strip() != "", f"summary_snippet failed: {resp}"
+    return resp
+
+
 def get_question_answer(q):
     resp = None
     try:  # get result from gpt request
-        messages = [make_message("assistant", sni["text"][:MAX_SNIPPET_LEN]) for sni in q["snippets"]]
+        messages = []
+        for sni in q["snippets"]:
+            snippet = summary_snippet(sni["text"]) if len(sni["text"]) > MAX_SNIPPET_LEN else sni["text"]
+            messages.append(make_message("assistant", snippet))
         # TODO: select top n snippets?
         messages += [make_message("user", PROMPT[q["type"]]), make_message("user", q["body"])]
         completion = completions_with_backoff(model=MODEL, messages=messages, temperature=TEMPERATURE)
