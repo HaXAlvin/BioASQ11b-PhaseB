@@ -10,17 +10,18 @@ from transformers import logging
 import time
 from multiprocessing import Pool, TimeoutError
 from functools import wraps
+import traceback
 
 logging.set_verbosity_error()
 openai.api_key = "YOUR_API_KEY"
 MODEL = "gpt-3.5-turbo"
 # MODEL = "gpt-4"
-BATCH = 2
-SUBMIT = 0
+BATCH = 4
+SUBMIT = 1
 MAX_SNIPPET_LEN = 250
 TEMPERATURE = 0.7
 # dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-training11b/training11b.json"
-dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-task11bPhaseB-testset2.txt"
+dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-task11bPhaseB-testset4.txt"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     QUESTIONS = json.load(f)["questions"]
@@ -37,9 +38,9 @@ SCHEMA = {
     "list": Schema({
         "exact_answer": And(
             list,
-            lambda l: 100 >= len(l) > 0,  # no more than 100 entries
-            lambda l: all((100 >= len(i) > 0) and isinstance(i, str) for i in l),  # no more than 100 characters each
-            Use(lambda l: [[i] for i in l])  # convert to list of list
+            lambda x: 100 >= len(x) > 0,  # no more than 100 entries
+            lambda x: all((100 >= len(item) > 0) and isinstance(item, str) for item in x),  # no more than 100 characters each
+            Use(lambda x: [[i] for i in x])  # convert to list of list
         ),
         "ideal_answer": And(Use(str), lambda s: s.strip() != "", lambda s: len(s.split()) <= 200)
     }),
@@ -50,8 +51,8 @@ SCHEMA = {
         "exact_answer": And(
             list,
             # Use(lambda x: x[:5]),  # TODO: select top 5 entries
-            lambda l: 5 >= len(l) > 0,  # no more than 5 entries
-            Use(lambda l: [[i] for i in l])  # convert to list of list
+            lambda x: 5 >= len(x) > 0,  # no more than 5 entries
+            Use(lambda x: [[i] for i in x])  # convert to list of list
         ),
         "ideal_answer": And(Use(str), lambda s: s.strip() != "", lambda s: len(s.split()) <= 200)
     })
@@ -81,8 +82,8 @@ def gpt_api_retry(func):
             try:
                 return func(**kwargs)
             except (RateLimitError, APIError, ServiceUnavailableError, TimeoutError) as e:
-                message = f"Retry: {i+1} times, error: {e}\n\n"
-                print(message)
+                message = f"Retry: {i+1} times, error: {traceback.format_exc()}\n\n"
+                tqdm.write(message)
                 log += message
                 time.sleep(3)
         raise TimeoutError(f"Failed to get response from OpenAI API after 5 retries.\n\n{log}")
@@ -119,7 +120,7 @@ def get_question_answer(q):
         result = SCHEMA[q["type"]].validate(result)
         return result
     except Exception as e:
-        print("====Error, check error.txt====")
+        tqdm.write("====Error, check error.txt====")
         with open("error.txt", "w", encoding="utf-8") as f:
             f.write(f"{str(e)}\nid:{q['id']}\ntype:{q['type']}\nresp:{resp}\n")
         raise e
@@ -207,7 +208,7 @@ def clean_and_check_result():
                 all_predicts += temp_predicts
                 break
             except Exception as e:  # retry, request again
-                print(e)
+                tqdm.write(e)
                 request_gpt(q)
         else:
             raise TimeoutError(f"Too many requests {q['id']}")
@@ -224,7 +225,7 @@ def calc_score():
         p.append(precision.mean().item())
         r.append(recall.mean().item())
         f.append(f1.mean().item())
-    print(average(p), average(r), average(f))
+    tqdm.write(average(p), average(r), average(f))
     # 0.6891707161377216 0.7301315315838518 0.700919523321349
 
 
@@ -260,4 +261,3 @@ if __name__ == "__main__":
 # 放在同個dict
 # exact_answer ideal_answer分開
 # opanai api embedding 算cos相似度
-
