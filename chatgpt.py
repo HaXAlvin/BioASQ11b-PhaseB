@@ -14,12 +14,12 @@ import traceback
 
 logging.set_verbosity_error()
 openai.api_key = "YOUR_API_KEY"
-MODEL = "gpt-3.5-turbo"
-# MODEL = "gpt-4"
+# MODEL = "gpt-3.5-turbo"
+MODEL = "gpt-4"
 BATCH = 4
-SUBMIT = 1
-MAX_SNIPPET_LEN = 250
-TEMPERATURE = 0.7
+SUBMIT = 5
+MAX_SNIPPET_LEN = 300
+TEMPERATURE = 1
 # dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-training11b/training11b.json"
 dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-task11bPhaseB-testset4.txt"
 
@@ -59,10 +59,10 @@ SCHEMA = {
 }
 
 PROMPT = {
-    "yesno": """You can only use JSON format to answer my questions. The format must be {"exact_answer":"", "ideal_answer":""}, where exact_answer should be "yes" or "no", and ideal_answer is a short conversational response starting with yes/no then follow on the explain. The first question is: """,
-    "list": """You can only use JSON format to answer my questions. The format must be {"exact_answer":[], "ideal_answer":""}, where exact_answer is a list of precise key entities to answer the question, and ideal_answer is a short conversational response containing an explanation. The first question is: """,
-    "summary": """Reply to the answer clearly and easily in less than 3 sentences. The first question is: """,
-    "factoid": """You can only use JSON format to answer my questions. The format must be {"exact_answer":[], "ideal_answer":""}. where exact_answer is a list of precise key entities to answer the question. ideal_answer is a short conversational response containing an explanation.  The first question is: """
+    "yesno": """You can only use JSON format to answer my questions. The format must be {"exact_answer":"", "ideal_answer":""}, where exact_answer should be "yes" or "no", and ideal_answer is a short conversational response starting with yes/no then follow on the explain. You should read the chat history's content before answer the question.  The first question is: """,
+    "list": """You can only use JSON format to answer my questions. The format must be {"exact_answer":[], "ideal_answer":""}, where exact_answer is a list of precise key entities to answer the question, and ideal_answer is a short conversational response containing an explanation. You should read the chat history's content before answer the question. The first question is: """,
+    "summary": """Reply to the answer clearly and easily in less than 3 sentences. You should read the chat history's content before answer the question. The first question is: """,
+    "factoid": """You can only use JSON format to answer my questions. The format must be {"exact_answer":[], "ideal_answer":""}. where exact_answer is a list of precise key entities to answer the question. ideal_answer is a short conversational response containing an explanation. You should read the chat history's content before answer the question. The first question is: """
 }
 
 
