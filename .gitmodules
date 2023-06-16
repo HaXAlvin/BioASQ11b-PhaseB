@@ -1,0 +1,3 @@
+[submodule "bioasq11_paper"]
+	path = bioasq11_paper
+	url = https://github.com/HaXAlvin/bioasq11_paper.git
