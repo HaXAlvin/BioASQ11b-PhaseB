@@ -69,11 +69,6 @@ PROMPT = {
 def make_message(role, content):
     return {"role": role, "content": content}
 
-
-def average(scores: list):
-    return sum(scores) / len(scores)
-
-
 def gpt_api_retry(func):
     @wraps(func)
     def warp_func(**kwargs):
@@ -142,93 +137,6 @@ def request_gpt(specific_q=None):
             json.dump(result, f, ensure_ascii=False, indent=4)
 
 
-# def extract_answer(question, have_answer=False):
-#     temp_answers = []
-#     temp_predicts = []
-
-#     with open(f"gpt_result/11b_batch_{BATCH}_submit_{SUBMIT}/{question['id']}.json", "r", encoding="utf-8") as f:
-#         result = json.load(f)
-#     if have_answer:
-#         if question["type"] == "yesno":
-#             temp_answers.append(question["exact_answer"])
-#             temp_predicts.append(result["exact_answer"])
-#             temp_answers += question["ideal_answer"]
-#             temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
-#         elif question["type"] == "list":
-#             temp_answers += [" ".join(a) for a in question["exact_answer"]]
-#             temp_predicts += [" ".join(sorted(result["exact_answer"]))] * len(question["exact_answer"])
-#             temp_answers += question["ideal_answer"]
-#             temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
-#         elif question["type"] == "factoid":
-#             temp_answers += question["exact_answer"]
-#             temp_predicts += [result["exact_answer"][0]] * len(question["exact_answer"])
-#             temp_answers += question["ideal_answer"]
-#             temp_predicts += [result["ideal_answer"][0]] * len(question["ideal_answer"])
-#         elif question["type"] == "summary":
-#             temp_answers += question["ideal_answer"]
-#             temp_predicts += [result["ideal_answer"]] * len(question["ideal_answer"])
-#     else:
-#         if question["type"] == "yesno":
-#             temp_predicts.append(result["exact_answer"])
-#             temp_predicts += [result["ideal_answer"]]
-#         elif question["type"] == "list":
-#             temp_predicts += sorted(result["exact_answer"])
-#             temp_predicts += [result["ideal_answer"]]
-#         elif question["type"] == "factoid":
-#             temp_predicts += result["exact_answer"]
-#             temp_predicts += result["ideal_answer"]
-#         elif question["type"] == "summary":
-#             temp_predicts.append(result["ideal_answer"])
-#         temp_answers = [i for i in temp_predicts]
-#     return temp_answers, temp_predicts
-
-
-# def remove_empty_str(question, list_key):
-#     if isinstance(question.get(list_key), list):
-#         question[list_key] = [t for t in question[list_key] if t]
-#     return question
-
-
-def clean_and_check_result():
-    all_answers = []
-    all_predicts = []
-    for q in tqdm(QUESTIONS, mininterval=2):
-        # q = remove_empty_str(q, "exact_answer")
-        # q = remove_empty_str(q, "ideal_answer")
-        for _ in range(10):  # max retry 10 times
-            try:
-                temp_answers, temp_predicts = extract_answer(q)
-                assert len(temp_answers) == len(temp_predicts)
-                for i, (a, p) in enumerate(zip(temp_answers, temp_predicts, strict=True)):
-                    assert isinstance(a, str) and isinstance(p, str), f"{q['id']},{a},{p}"
-                    assert a != "" and p != "", "should not be empty"
-                    temp_answers[i] = temp_answers[i][:256]
-                    temp_predicts[i] = temp_predicts[i][:256]
-                all_answers += temp_answers
-                all_predicts += temp_predicts
-                break
-            except Exception as e:  # retry, request again
-                tqdm.write(e)
-                request_gpt(q)
-        else:
-            raise TimeoutError(f"Too many requests {q['id']}")
-    return all_answers, all_predicts
-
-
-def calc_score():
-    all_answers, all_predicts = clean_and_check_result()
-    p = []
-    r = []
-    f = []
-    for i in tqdm(range(len(all_answers) // 128)):
-        precision, recall, f1 = bert_score.score(all_predicts[i * 128: (i + 1) * 128], all_answers[i * 128: (i + 1) * 128], lang="en", verbose=False, model_type="/Users/alvin/Projects/BioASQ11-Task b/bioasq10b/ideal answer/pretrained_models/biobert_mnli", num_layers=5, batch_size=128)
-        p.append(precision.mean().item())
-        r.append(recall.mean().item())
-        f.append(f1.mean().item())
-    tqdm.write(average(p), average(r), average(f))
-    # 0.6891707161377216 0.7301315315838518 0.700919523321349
-
-
 def merge_result_and_question():
     submit_file = {"questions": []}
     folder = f"gpt_result/11b_batch_{BATCH}_submit_{SUBMIT}"
@@ -244,20 +152,6 @@ def merge_result_and_question():
         json.dump(submit_file, f, ensure_ascii=False, indent=4)
 
 
-def validate():
-    request_gpt()
-    calc_score()
-
-
-def test():
+if __name__ == "__main__":
     request_gpt()
     merge_result_and_question()
-
-
-if __name__ == "__main__":
-    test()
-
-
-# 放在同個dict
-# exact_answer ideal_answer分開
-# opanai api embedding 算cos相似度
