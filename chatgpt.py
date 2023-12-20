@@ -1,27 +1,24 @@
 import json
-from schema import Schema, And, Use
-
 import os
-import bert_score
-import openai
-from openai.error import RateLimitError, APIError, ServiceUnavailableError
-from tqdm import tqdm
-from transformers import logging
 import time
-from multiprocessing import Pool, TimeoutError
-from functools import wraps
 import traceback
+from functools import wraps
+from multiprocessing import Pool, TimeoutError
 
-logging.set_verbosity_error()
+import openai
+from openai.error import APIError, RateLimitError, ServiceUnavailableError
+from schema import And, Schema, Use
+from tqdm import tqdm
+
 openai.api_key = "YOUR_API_KEY"
-# MODEL = "gpt-3.5-turbo"
+
 MODEL = "gpt-4"
 BATCH = 4
 SUBMIT = 5
 MAX_SNIPPET_LEN = 300
 TEMPERATURE = 1
-# dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-training11b/training11b.json"
-dataset_path = "/Users/alvin/Projects/BioASQ11-Task b/data/BioASQ-task11bPhaseB-testset4.txt"
+
+dataset_path = f"data/BioASQ-task11bPhaseB-testset{BATCH}.txt"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
     QUESTIONS = json.load(f)["questions"]
@@ -50,7 +47,6 @@ SCHEMA = {
     "factoid": Schema({
         "exact_answer": And(
             list,
-            # Use(lambda x: x[:5]),  # TODO: select top 5 entries
             lambda x: 5 >= len(x) > 0,  # no more than 5 entries
             Use(lambda x: [[i] for i in x])  # convert to list of list
         ),
@@ -93,7 +89,7 @@ def completions_with_backoff(**kwargs):
 
 
 def summary_snippet(snippet):
-    messages = [make_message("user", f"Conclusion and summarize this context in less than {MAX_SNIPPET_LEN} letters:\"\"\"{snippet}\"\"\"")]
+    messages = [make_message("user", f'Conclusion and summarize this context in less than {MAX_SNIPPET_LEN} letters:"""{snippet}"""')]
     completion = completions_with_backoff(model=MODEL, messages=messages, temperature=TEMPERATURE)
     resp = completion.choices[0].message.content
     assert isinstance(resp, str) and resp.strip() != "", f"summary_snippet failed: {resp}"
@@ -107,7 +103,6 @@ def get_question_answer(q):
         for sni in q["snippets"]:
             snippet = summary_snippet(sni["text"]) if len(sni["text"]) > MAX_SNIPPET_LEN else sni["text"]
             messages.append(make_message("assistant", snippet))
-        # TODO: select top n snippets?
         messages += [make_message("user", PROMPT[q["type"]]), make_message("user", q["body"])]
         completion = completions_with_backoff(model=MODEL, messages=messages, temperature=TEMPERATURE)
         resp = completion.choices[0].message.content.strip(".。\"'")
